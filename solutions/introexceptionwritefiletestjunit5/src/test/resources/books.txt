@@ -1,0 +1,4 @@
+G 25;Egri csillagok;Gárdonyi Géza
+M 79;Pál utcai fiúk;Molnár Ferenc
+F 37;Tüskevár;Fekete István
+J 68;Kőszívű ember fiai;Jókai Mór
