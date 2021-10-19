@@ -12,6 +12,11 @@ A `java-sv2-daily-labs01` repón készíts egy day04 mappát és ebben készíts
 
 ## Week02
 
-### Day02
+### Day01
 Készíts egy `day01.Human` nevű osztályt. Attribútumai legyenek egy név és egy életkor.
 Legyen egy konstruktor ami beállítja ezeket az értékeket. Készíts getter metódusokat az attribútumokhoz. A megoldásod a `java-sv2-daily-labs02` töltsd fel, a projekt neve legyen `week02-lab-tasks`.
+
+
+### Day02
+Készíts egy `day02.Rectangle` (téglalap) nevű osztályt, amelynek két attribútuma a téglalap kétoldalának hossza (ha tudod, akkor lehet lebegőpontos). Készt egy konstruktort, ami beállítja az attribútumok kezdeti értékét. Készíts egy `calculateArea()` nevű metódust, ami visszaadja a téglalap területét! Készíts egy `day02.Geometry` nevű osztályt melyben van egy`main` metódus, itt teszteled az elkészített téglalapokat reprezentáló osztályt! 
+
