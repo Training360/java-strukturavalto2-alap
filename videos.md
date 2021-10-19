@@ -28,3 +28,7 @@ Technikai segítségnyújtás: a GitHub alapszintű használatáról bővebben, 
 * IDEA gyorsbillentyűk.
 * IDEA üzenetek, hibaüzenetek, helyesírás-ellenőrző.
 * Törlés a GitHub webes felületén.
+
+## 2021.10.18.
+
+Részletesen arról, hogy mi az osztály és mi az objektum.
