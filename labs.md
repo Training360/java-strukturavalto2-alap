@@ -9,3 +9,9 @@ Készítsd el a GitHub repository-kat. Az `java-sv2-labs` repository-ban hozz l�
 
 ### Day04
 A `java-sv2-daily-labs01` repón készíts egy day04 mappát és ebben készíts egy `daily-solution` nevű projektet. A projektben legyen egy `week01day04` nevű csomag, ezen belül egy `Hello` nevű osztály, melynek legyen egy `main` metódusa egy kiiratással. 
+
+## Week02
+
+### Day02
+Készíts egy `day01.Human` nevű osztályt. Attribútumai legyenek egy név és egy életkor.
+Legyen egy konstruktor ami beállítja ezeket az értékeket. Készíts getter metódusokat az attribútumokhoz. A megoldásod a `java-sv2-daily-labs02` töltsd fel, a projekt neve legyen `week02-lab-tasks`.
