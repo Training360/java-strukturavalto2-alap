@@ -32,3 +32,19 @@ Technikai segítségnyújtás: a GitHub alapszintű használatáról bővebben, 
 ## 2021.10.18.
 
 Részletesen arról, hogy mi az osztály és mi az objektum.
+
+## 2021.10.19.
+
+Részletesen a metódusokról. Visszatérési típus, metódus neve, formális és aktuális paraméterek.
+
+## 2021.10.20. - Ismétlőkérdések
+
+Kis csoportos foglalkozás keretében végigmentünk az első heti tananyagon ismétlőkérdések formájában.
+
+## 2021.10.20.
+
+Élőben tartott ismétlő konzultáció. Mi az osztály, mi az objektum? Mik az osztály tagjai, mit érdemes tudni az attribútumokról, metódusokról, konstruktorokról? Hogyan írhatunk meg egy osztályt? A this kulcsszóról röviden. Ne írjunk túl szellős kódot!
+
+## 2021.10.21.
+
+Ezen a konzultáción mindenki elfelejtette, hogy felvételt kellene indítani, így Kristóf újra videóra mondta a gyakorlati feladat megoldását.
