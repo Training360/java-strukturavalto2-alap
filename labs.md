@@ -20,3 +20,10 @@ Legyen egy konstruktor ami beállítja ezeket az értékeket. Készíts getter m
 ### Day02
 Készíts egy `day02.Rectangle` (téglalap) nevű osztályt, amelynek két attribútuma a téglalap kétoldalának hossza (ha tudod, akkor lehet lebegőpontos). Készt egy konstruktort, ami beállítja az attribútumok kezdeti értékét. Készíts egy `calculateArea()` nevű metódust, ami visszaadja a téglalap területét! Készíts egy `day02.Geometry` nevű osztályt melyben van egy`main` metódus, itt teszteled az elkészített téglalapokat reprezentáló osztályt! 
 
+### Day04
+Készíts egy `day04.Car` osztályt, mely attribútumként tárolja, hogy hány litert a tankoltunk bele, és hány kilométert ment el ekkora mennyiségű üzemanyaggal. Mindkét attribútumhoz legyen setter metódus! Legyen egy metódus ami kiszámolja az autó átlag fogyasztását, azaz azt hogy 100km távolságon mennyit fogyasztott átlagosan.
+Legyen egy `day04.GasStation` osztály is melynek egy metódusa van, a tankolás, ami egy kocsit és egy liter mennyiséget vár paraméterül. Ez a metódus állítsa be a kocsi üzemanyag mennyiségét. Egy attribútuma ami az üzemanyag ár. Ezt állítsuk konstruktorban. És a tankolás metódus adja vissza, hogy mennyit kellett fiszetni a tankolásért. 
+Tesztelj!
+
+
+
