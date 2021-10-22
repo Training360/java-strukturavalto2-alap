@@ -48,3 +48,7 @@ Kis csoportos foglalkozás keretében végigmentünk az első heti tananyagon is
 ## 2021.10.21.
 
 Ezen a konzultáción mindenki elfelejtette, hogy felvételt kellene indítani, így Kristóf újra videóra mondta a gyakorlati feladat megoldását.
+
+## 2021.10.22.
+
+Közös interaktív gyakorlóteszt, majd feladat. Feladat megoldása kétféleképpen.
