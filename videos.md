@@ -52,3 +52,7 @@ Ezen a konzultáción mindenki elfelejtette, hogy felvételt kellene indítani, 
 ## 2021.10.22.
 
 Közös interaktív gyakorlóteszt, majd feladat. Feladat megoldása kétféleképpen.
+
+## 2021.10.25.
+
+A konzultáció elején a feladat kiadása majd megoldása. Ezután sok kérdés ciklusokkal, vezérlési szerkezetekkel, debugolással, String metódusokkal kapcsolatban. A Debug című lecke feladatainak megoldása közösen.
