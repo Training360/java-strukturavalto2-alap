@@ -56,3 +56,15 @@ Közös interaktív gyakorlóteszt, majd feladat. Feladat megoldása kétfélek�
 ## 2021.10.25.
 
 A konzultáció elején a feladat kiadása majd megoldása. Ezután sok kérdés ciklusokkal, vezérlési szerkezetekkel, debugolással, String metódusokkal kapcsolatban. A Debug című lecke feladatainak megoldása közösen.
+
+## 2021.10.26
+
+A mai feladatot előre kiírta Kristóf a Slackre. Elég sok megoldás érkezett, ebből néhányat kiválasztott Kristóf és közösen megbeszélésre kerültek. Ezután hallgatói kérdés nyomán a tömbök tömbje lett bemutatva: értelmezése, létrehozása, kezelése.
+
+## 2021.10.27. - Ismétlőkérdések
+
+Kis csoportos foglalkozás keretében végigmentünk a második heti tananyagon ismétlőkérdések formájában.
+
+## 2021.10.27.
+
+A második heti tananyag összefoglaló ismétlése, sok kitérővel a tananyaghoz kapcsolódó apróbb problémákra. Melyik elnevezés felel meg a kódolási konvencióknak? Melyik literál milyen típusú lesz? Mit jelent az, hogy a lokális változónak legkésőbb a használat előtt értéket kell kapnia? int-double típuskonverzió. A három operandusú operátor működése. Más csomagban lévő osztályok használata. "Mit ír ki?" típusú feladatok String metódusokkal és sortöréssel. Hogyan kérem le egy dátum- vagy időadat egyes tagjait? Tömb és lista esetén: létrehozása, egy elemének lekérése, hosszának lekérése, új elem hozzáadása, elemének cseréje. Mit jelent az a szó, hogy "bejárás"? final és static final változók használata. Közös kódolvasás a kiadott feladatra beküldött megoldásokból.
