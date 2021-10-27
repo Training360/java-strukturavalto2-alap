@@ -45,3 +45,10 @@ Készíts egy `day01.School` nevű osztályt, amiben van egy `main()` metódus, 
 ### Day02
 Készíts egy `day02.Mathematics` osztályt, melyben van egy `boolean isPrime(int number)` metódus ami igaz értéket ad vissza, ha a paraméterül kapott szám prím, különben hamisat.
 
+### Day03
+Írj egy számkitaláló programot a `GuessTheNumber` osztályba! A program kitalál
+egy véletlenszerű számot 1 és 100 között. Majd bekér a felhasználótól ciklusban
+számokat.
+Mindig megmondja, hogy a szám kisebb, nagyobb vagy egyenlő-e mint a gondolt szám.
+Legfeljebb 6-szor lehessen kérdezni, és a felhasználó kapjon visszajelzést arról
+is, ha kitalálta és arról is, ha nem!
