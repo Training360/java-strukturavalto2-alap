@@ -68,3 +68,6 @@ Kis csoportos foglalkozás keretében végigmentünk a második heti tananyagon 
 ## 2021.10.27.
 
 A második heti tananyag összefoglaló ismétlése, sok kitérővel a tananyaghoz kapcsolódó apróbb problémákra. Melyik elnevezés felel meg a kódolási konvencióknak? Melyik literál milyen típusú lesz? Mit jelent az, hogy a lokális változónak legkésőbb a használat előtt értéket kell kapnia? int-double típuskonverzió. A három operandusú operátor működése. Más csomagban lévő osztályok használata. "Mit ír ki?" típusú feladatok String metódusokkal és sortöréssel. Hogyan kérem le egy dátum- vagy időadat egyes tagjait? Tömb és lista esetén: létrehozása, egy elemének lekérése, hosszának lekérése, új elem hozzáadása, elemének cseréje. Mit jelent az a szó, hogy "bejárás"? final és static final változók használata. Közös kódolvasás a kiadott feladatra beküldött megoldásokból.
+
+## 2021.10.28
+A mai feladatot Kristóf ismét kiírta slackre vázlatosan, majd a konzultáción specifikálta pontosan. A feladatot ezután két módszerrel is megoldottuk. Ezután kérdések megbeszélése tömbök tömbje és random-mal kapcsolatban.
