@@ -63,3 +63,16 @@ A feladat megoldásához készíts egy `day04.Prison` nevű osztályt amiben att
 Készíts egy `day05.Journal` nevű osztályt mely egy iskolai naplót reprezentál. Legyen benne egy lista amiben a gyerekek neveit tároljuk. Az osztályban legyen egy `boolean addStudent(String studentName)` nevű metódus, ami csak akkor enged hozzáadni a listához egy nevet, ha vezeték és kersztnév is szerepel a névben. Ha teljesül akkor hozzáadja és igaz értékkel tér vissza, ha nem akkor nem adja hozzá és hamis értékkel tér vissza.("Kis Pista" - ok, "Madonna" - nem ok)
 
 
+## Week04
+
+A megoldásokat a `java-sv2-daily-labs04` repositoryban, a `week04-lab-tasks` projektben valósítsd meg.
+
+### Day01
+Készíts egy `day01.Actor` nevű osztályt, melynek attribútumai a színész neve, születési éve. Ezeket konstruktorban állítsd be és készíts hozzájuk gettereket.
+
+Legyen még egy `day01.Movie` osztály is. Ennek 3 attribútuma, a film címe, megjelenés éve és a színészek listája. Első kettőt konstruktorban állítsuk be. Legyen benne egy `addActor(Actor actor)` metódus, amivel egy színészt tudunk hozzáadni a listához. Legyen egy `int actorsInTheirTwenties()` nevű metódus, amivel megszámolod, hogy hány színész járt a 20-as éveiben a film készítésekor. 
+(Mivel mindkét osztályban csak év van, így a feladatot úgy kell értelmezni, hogy hányadik életévében jár)
+
+Teszteld a megoldásod main() metódusban.
+
+
