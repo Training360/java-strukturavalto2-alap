@@ -71,3 +71,9 @@ A második heti tananyag összefoglaló ismétlése, sok kitérővel a tananyagh
 
 ## 2021.10.28
 A mai feladatot Kristóf ismét kiírta slackre vázlatosan, majd a konzultáción specifikálta pontosan. A feladatot ezután két módszerrel is megoldottuk. Ezután kérdések megbeszélése tömbök tömbje és random-mal kapcsolatban.
+
+## 2021.10.29.
+Közös interaktív ismétlő kvíz, feladat és megbeszélése, válaszok a felmerült hallgatói kérdésekre.
+
+## 2021.11.02.
+Feladatmegoldás, válaszok a felmerült hallgatói kérdésekre, a referenciákról bővebben.
