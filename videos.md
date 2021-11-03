@@ -77,3 +77,9 @@ Közös interaktív ismétlő kvíz, feladat és megbeszélése, válaszok a fel
 
 ## 2021.11.02.
 Feladatmegoldás, válaszok a felmerült hallgatói kérdésekre, a referenciákról bővebben.
+
+## 2021.11.03.- Ismétlőkérdések
+Kis csoportos foglalkozás keretében végigmentünk a harmadik heti tananyagon ismétlőkérdések formájában.
+
+## 2021.11.03.
+A harmadik heti tananyag átfogó ismétlése. Az attribútumok alapértelmezett értéke. A toString() metódus. Referenciák, stack és heap (rajz). Egész szám literálok megadása más számrendszerben. Mire szokás használni az enumokat? A rövidzár kifejezés jelentése a gyakorlatban. String metódusok. Két feladat közös megoldása a vizsgára készülés jegyében.
