@@ -83,3 +83,12 @@ Kis csoportos foglalkozás keretében végigmentünk a harmadik heti tananyagon 
 
 ## 2021.11.03.
 A harmadik heti tananyag átfogó ismétlése. Az attribútumok alapértelmezett értéke. A toString() metódus. Referenciák, stack és heap (rajz). Egész szám literálok megadása más számrendszerben. Mire szokás használni az enumokat? A rövidzár kifejezés jelentése a gyakorlatban. String metódusok. Két feladat közös megoldása a vizsgára készülés jegyében.
+
+## 2021.11.04.
+Napi feladat kiadása, de mivel senki nem készült el vele, ezért nem beszéltük meg közösen. Ezután a következő témák részletes tárgyalása: 
+
+* Átváltás 2-es és 16-os számrendszerbe, bitenkénti operátorok működése.
+* Mit jelent az, hogy a String immutable?
+
+## 2021.11.05.
+A felvétel a kiadott feladat megoldásakor lett elindítva. A kiadott feladat megoldása. A tegnapi kiadott feladat megoldása. A metódusokról és a paraméterátadásról. Az enumokról röviden.
