@@ -70,25 +70,36 @@ Kis csoportos foglalkozás keretében végigmentünk a második heti tananyagon 
 A második heti tananyag összefoglaló ismétlése, sok kitérővel a tananyaghoz kapcsolódó apróbb problémákra. Melyik elnevezés felel meg a kódolási konvencióknak? Melyik literál milyen típusú lesz? Mit jelent az, hogy a lokális változónak legkésőbb a használat előtt értéket kell kapnia? int-double típuskonverzió. A három operandusú operátor működése. Más csomagban lévő osztályok használata. "Mit ír ki?" típusú feladatok String metódusokkal és sortöréssel. Hogyan kérem le egy dátum- vagy időadat egyes tagjait? Tömb és lista esetén: létrehozása, egy elemének lekérése, hosszának lekérése, új elem hozzáadása, elemének cseréje. Mit jelent az a szó, hogy "bejárás"? final és static final változók használata. Közös kódolvasás a kiadott feladatra beküldött megoldásokból.
 
 ## 2021.10.28
+
 A mai feladatot Kristóf ismét kiírta slackre vázlatosan, majd a konzultáción specifikálta pontosan. A feladatot ezután két módszerrel is megoldottuk. Ezután kérdések megbeszélése tömbök tömbje és random-mal kapcsolatban.
 
 ## 2021.10.29.
+
 Közös interaktív ismétlő kvíz, feladat és megbeszélése, válaszok a felmerült hallgatói kérdésekre.
 
 ## 2021.11.02.
+
 Feladatmegoldás, válaszok a felmerült hallgatói kérdésekre, a referenciákról bővebben.
 
 ## 2021.11.03.- Ismétlőkérdések
+
 Kis csoportos foglalkozás keretében végigmentünk a harmadik heti tananyagon ismétlőkérdések formájában.
 
 ## 2021.11.03.
+
 A harmadik heti tananyag átfogó ismétlése. Az attribútumok alapértelmezett értéke. A toString() metódus. Referenciák, stack és heap (rajz). Egész szám literálok megadása más számrendszerben. Mire szokás használni az enumokat? A rövidzár kifejezés jelentése a gyakorlatban. String metódusok. Két feladat közös megoldása a vizsgára készülés jegyében.
 
 ## 2021.11.04.
+
 Napi feladat kiadása, de mivel senki nem készült el vele, ezért nem beszéltük meg közösen. Ezután a következő témák részletes tárgyalása: 
 
 * Átváltás 2-es és 16-os számrendszerbe, bitenkénti operátorok működése.
 * Mit jelent az, hogy a String immutable?
 
 ## 2021.11.05.
+
 A felvétel a kiadott feladat megoldásakor lett elindítva. A kiadott feladat megoldása. A tegnapi kiadott feladat megoldása. A metódusokról és a paraméterátadásról. Az enumokról röviden.
+
+## 2021.11.08.
+
+A kiadott feladat megoldása, majd technikai információk a másnapi vizsgával kapcsolatban.
