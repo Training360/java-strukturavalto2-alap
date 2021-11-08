@@ -1,0 +1,1 @@
+Struktúraváltás 2.0 Junior Java backend fejlesztő 1. részvizsga gyakorlati feladata

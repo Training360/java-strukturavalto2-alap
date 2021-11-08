@@ -1,0 +1,1 @@
+Itt fogjátok megtalálni a vizsgák gyakorlati feladatait.
