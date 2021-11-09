@@ -57,7 +57,7 @@ igazat ad vissza, ha az autó ára nem haladja meg a max limitet. Ellenkező ese
 ### 2. Rész
 
 Bővitsd a `CarShop` osztályt egy metódussal, ami visszaadja a kereskedésben található autók összértékét.
-A metódus neve legyen `double sumCarPrice()`.
+A metódus neve legyen `int sumCarPrice()`.
 
 Legyen egy metódus, ami vár egy árat és visszaadja a kapott árnál nem drágább autók darabszámát.
 A metódus neve legyen `int numberOfCarsCheaperThan(int price)`.
