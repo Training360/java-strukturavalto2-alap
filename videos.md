@@ -103,3 +103,7 @@ A felvétel a kiadott feladat megoldásakor lett elindítva. A kiadott feladat m
 ## 2021.11.08.
 
 A kiadott feladat megoldása, majd technikai információk a másnapi vizsgával kapcsolatban.
+
+## 2021.11.10.
+
+A vizsga gyakorlati feladatainak közös megoldása.
