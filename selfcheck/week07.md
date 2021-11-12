@@ -1,4 +1,4 @@
-# Hatodik hét (2021-11-22 - 2021-11-28)
+# Hetedik hét (2021-11-22 - 2021-11-28)
 
 Ezen a héten nagyrészt ismétlés következik, néhány újabb ismerettel: a programozási tételek 
 és újra az attribútumok, konstruktorok, metódusok.
