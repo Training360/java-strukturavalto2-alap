@@ -55,7 +55,7 @@ metódust is!
 ### 2. feladatrész (20 pont):
 
 Hozd létre a `RedLion` osztályt, amelynek legyen egy neve (szöveg), egy listája a náluk kapható teafajtákról
-(`List<Cup>` típusú), egy nyitási és egy zárási időpontja (mindkettő `LocalDateTime` típusú)! A lista kezdetben ne legyen üres,
+(`List<Cup>` típusú), egy nyitási és egy zárási időpontja (mindkettő `LocalTime` típusú)! A lista kezdetben ne legyen üres,
 hanem eleve tartalmazzon már két teafajtát (`new Cup("Kamillavirágzat", 1256, Sort.HERBAL_TEA)` és
 `new Cup("Cseresznyés álom", 1745, Sort.FRUIT_TEA)` adatokkal)! De tartozzon a listához egy `void addCup(Cup cup)` metódus is,
 amellyel fel lehet tölteni további elemekkel! Minden attribútumhoz tartozzon getter!
