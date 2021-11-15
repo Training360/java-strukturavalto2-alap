@@ -140,6 +140,6 @@ A feladathoz tartozó main metódus:
 A megoldásokat a `java-sv2-daily-labs06` repositoryban, a `week06-lab-tasks` projektben valósítsd meg.
 
 ### Day01
- Készíts egy `day01.PositiveNumberContainer` osztályt. Ebben az osztályban, legyen egy lista, ami valós számokat tárol, illetve legyen egy add metódus, ami egy számot hozzáad a listához. Legyen egy `day01.Main` nevű osztályod, benne egy `main` metódussal. A feladat, az hogy addig kérj be számokat és tárold el a listában, amíg pozitív számokat gépel be a felhasználó. Amint érkezik egy nem pozitív szám írd ki az eddig beképelt számokat.
+ Készíts egy `day01.PositiveNumberContainer` osztályt. Ebben az osztályban, legyen egy lista, ami valós számokat tárol, illetve legyen egy add metódus, ami egy számot hozzáad a listához. Legyen egy `day01.Main` nevű osztályod, benne egy `main` metódussal. A feladat, az hogy addig kérj be számokat és tárold el a listában, amíg pozitív számokat gépel be a felhasználó. Amint érkezik egy nem pozitív szám írd ki az eddig begépelt számokat.
 
 
