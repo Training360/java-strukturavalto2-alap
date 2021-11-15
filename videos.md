@@ -107,3 +107,7 @@ A kiadott feladat megoldása, majd technikai információk a másnapi vizsgával
 ## 2021.11.10.
 
 A vizsga gyakorlati feladatainak közös megoldása.
+
+## 2021.11.15.
+
+A kiadott feladat megoldása. Részletesebben a `while` ciklusról, a `switch` szerkezetről, a `break` és a `continue` utasításokról.
