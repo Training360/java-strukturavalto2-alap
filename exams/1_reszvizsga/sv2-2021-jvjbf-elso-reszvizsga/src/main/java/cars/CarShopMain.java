@@ -19,9 +19,9 @@ public class CarShopMain {
         car1.decreasePrice(10);
 
         System.out.println(carShop.getCarsForSell().get(0).getPrice()); //2070000
-
-
-        //2. rész
+//
+//
+//        //2. rész
         Car car3 = new Car("Suzuki", 1.4, Color.RED, 1_500_000);
         Car car4 = new Car("Toyota", 1.4, Color.GREY, 2_700_000);
 
@@ -37,6 +37,7 @@ public class CarShopMain {
         System.out.println(carShop.carsWithBrand("Toyota").size()); //2
 
         System.out.println(carShop.carsWithBrand("BMW").size()); //0
+
 
 
 
