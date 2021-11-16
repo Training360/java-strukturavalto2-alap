@@ -111,3 +111,7 @@ A vizsga gyakorlati feladatainak közös megoldása.
 ## 2021.11.15.
 
 A kiadott feladat megoldása. Részletesebben a `while` ciklusról, a `switch` szerkezetről, a `break` és a `continue` utasításokról.
+
+## 2021.11.16.
+
+A kiadott feladat megoldása és közös megbeszélése.
