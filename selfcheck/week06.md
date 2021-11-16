@@ -16,6 +16,7 @@ Ezen a héten a kivétel- és fájlkezelést fogjátok alapszinten megismerni.
 * [ ] Kivétel kezelése a hívási láncban gyakorlati feladat
 * [ ] [Kivétel eldobása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177790-kivetel-eldobasa)
 * [ ] Kivétel eldobása gyakorlati feladat
+* [ ] [Kivételkezelés tesztelése JUnit 4 használatával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177875-kivetelkezeles-tesztelese-junit-4-hasznalataval) 
 * [ ] [Kivételkezelés tesztelése JUnit 5 használatával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177887-kivetelkezeles-tesztelese-junit-5-hasznalataval)
 * [ ] Kivételkezelés tesztelése JUnit 5 használatával gyakorlati feladat
 * [ ] [Fájl beolvasása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177973-fajl-beolvasasa)
@@ -24,10 +25,12 @@ Ezen a héten a kivétel- és fájlkezelést fogjátok alapszinten megismerni.
 * [ ] Kötelezően kezelendő kivétel a hívási láncban gyakorlati feladat
 * [ ] [Kivétel becsomagolása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178010-kivetel-becsomagolasa)
 * [ ] Kivétel becsomagolása gyakorlati feladat
+* [ ] [Fájlbeolvasás tesztelése JUnit 4 használatával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178020-fajlbeolvasas-tesztelese-junit-4-hasznalataval)  
 * [ ] [Fájlbeolvasás tesztelése JUnit 5 használatával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178029-fajlbeolvasas-tesztelese-junit-5-hasznalataval)
 * [ ] Fájlbeolvasás tesztelése JUnit 5 használatával gyakorlati feladat
 * [ ] [Fájl írása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178041-fajl-irasa)
 * [ ] Fájl írása gyakorlati feladat
+* [ ] [Fájl írásának tesztelése JUnit 4 használatával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178049-fajl-irasanak-tesztelese-junit-4-hasznalataval)  
 * [ ] [Fájl írásának tesztelése JUnit 5 használatával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178063-fajl-irasanak-tesztelese-junit-5-hasznalataval)
 * [ ] Fájl írásának tesztelése JUnit 5 használatával gyakorlati feladat
 * [ ] [A finally ág videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178086-a-finally-ag)
