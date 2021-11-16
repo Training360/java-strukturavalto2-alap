@@ -142,4 +142,6 @@ A megoldásokat a `java-sv2-daily-labs06` repositoryban, a `week06-lab-tasks` pr
 ### Day01
  Készíts egy `day01.PositiveNumberContainer` osztályt. Ebben az osztályban, legyen egy lista, ami valós számokat tárol, illetve legyen egy add metódus, ami egy számot hozzáad a listához. Legyen egy `day01.Main` nevű osztályod, benne egy `main` metódussal. A feladat, az hogy addig kérj be számokat és tárold el a listában, amíg pozitív számokat gépel be a felhasználó. Amint érkezik egy nem pozitív szám írd ki az eddig begépelt számokat.
 
+### Day02
+Írj unit teszteket a vizsgafeladat 2. (Játék a számokkal) és 3. (Autókereskedés) feladatához. (day02.numbers és day02.cars csomag tartalmazza a forrásállományokat)
 
