@@ -58,4 +58,12 @@ public class CarShop {
         }
         return result;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getMaxPrice() {
+        return maxPrice;
+    }
 }
