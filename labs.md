@@ -145,3 +145,8 @@ A megoldásokat a `java-sv2-daily-labs06` repositoryban, a `week06-lab-tasks` pr
 ### Day02
 Írj unit teszteket a vizsgafeladat 2. (Játék a számokkal) és 3. (Autókereskedés) feladatához. (day02.numbers és day02.cars csomag tartalmazza a forrásállományokat)
 
+### Day03 (opcionális feladatok)
+
+Írj egy metódust, mely visszaad egy tömböt, amelyben 5 db tetszőleges páratlan szám van!
+
+Írj egy metódust, mely paraméterként egy összeget (egész számot) kap, és a magyar fizetési kerekítések szerint visszaadja a fizetendő összeget! (Tehát: Ha a kapott összeg 1-re vagy 2-re végződik, akkor 0-ra kerekít, ha 3-ra, 4-re, 6-ra vagy 7-re, akkor 5-re kerekít, ha pedig 8-ra vagy 9-re, akkor 10-re kerekít. Ha 5-re vagy 0-ra végződik az összeg, akkor nincs kerekítés.)
