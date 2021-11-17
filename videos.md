@@ -111,3 +111,22 @@ A vizsga gyakorlati feladatainak közös megoldása.
 ## 2021.11.15.
 
 A kiadott feladat megoldása. Részletesebben a `while` ciklusról, a `switch` szerkezetről, a `break` és a `continue` utasításokról.
+
+## 2021.11.16.
+
+A kiadott feladat megoldása és közös megbeszélése.
+
+## 2021.11.17.
+
+Átfogó ismétlő konzultáció a JUnit és a vezérlési szerkezetek témaköréből:
+
+* Helyreigazítás a Referenciák témaköréből
+* Mire jó, hogy a JUnit 4-ről is tanulunk, ha egyébként a JUnit 5-öt használjuk?
+* Mi a JUnit? Miért jó, hogy vannak automatikus tesztjeink?
+* Hogyan írunk meg egy tesztesetet? Milyen részei vannak? Melyek kötelezőek? Mik a konvenciók?
+* Hogyan működik a @BeforeEach és az @AfterEach annotációval ellátott metódus?
+* Mit írhatok egy if szerkezet fejébe?
+* Hogyan lehet egymás után fűzni az if-if else-else ágakat? Hogyan működik ez?
+* Hogyan működik ehhez képest a switch szerkezet?
+* Milyen egy végtelen ciklus? Hogyan lehet ilyet létrehozni? Mi a helyzet for-each ciklus esetén?
+* Gyakorlati feladatok: tesztek írása a pótvizsga feladatsorhoz, metódus írása összekevert sorokból.
