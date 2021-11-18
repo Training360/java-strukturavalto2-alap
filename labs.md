@@ -150,3 +150,33 @@ A megoldásokat a `java-sv2-daily-labs06` repositoryban, a `week06-lab-tasks` pr
 Írj egy metódust, mely visszaad egy tömböt, amelyben 5 db tetszőleges páratlan szám van!
 
 Írj egy metódust, mely paraméterként egy összeget (egész számot) kap, és a magyar fizetési kerekítések szerint visszaadja a fizetendő összeget! (Tehát: Ha a kapott összeg 1-re vagy 2-re végződik, akkor 0-ra kerekít, ha 3-ra, 4-re, 6-ra vagy 7-re, akkor 5-re kerekít, ha pedig 8-ra vagy 9-re, akkor 10-re kerekít. Ha 5-re vagy 0-ra végződik az összeg, akkor nincs kerekítés.)
+
+### Day4 (akasztófa)
+
+```java
+package hangman;
+
+import java.util.Scanner;
+
+public class HangmanMain {
+
+    public static void main(String[] args) {
+        new HangmanMain().run();
+    }
+
+    private void run() {
+    }
+
+    private String updateWordFound(String wordToFind, String status, String guess) {
+        char[] chars = status.toCharArray();
+        for (int i = 0; i < chars.length; i++) {
+            if (wordToFind.charAt(i) == guess.charAt(0)) {
+                chars[i] = guess.charAt(0);
+            }
+        }
+        return new String(chars);
+    }
+
+}
+
+```
