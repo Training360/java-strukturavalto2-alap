@@ -130,3 +130,7 @@ A kiadott feladat megoldása és közös megbeszélése.
 * Hogyan működik ehhez képest a switch szerkezet?
 * Milyen egy végtelen ciklus? Hogyan lehet ilyet létrehozni? Mi a helyzet for-each ciklus esetén?
 * Gyakorlati feladatok: tesztek írása a pótvizsga feladatsorhoz, metódus írása összekevert sorokból.
+
+## 2021.11.18.
+
+Akasztófa játék egyszerű megvalósítása. Először István adott hozzá egy csomó segítséget (metódust, folyamatábrát, elmondta, milyen logika alapján épüljön föl a program), majd önálló fealdatmegoldás volt, végül István bemutatta, hogyan lehet rétegekre szétszedni ezt a kis alkalmazást, hogy ezáltal tesztelhető is legyen.
