@@ -133,4 +133,4 @@ A kiadott feladat megoldása és közös megbeszélése.
 
 ## 2021.11.18.
 
-Akasztófa játék egyszerű megvalósítása. Először István adott hozzá egy csomó segítséget (metódust, folyamatábrát, elmondta, milyen logika alapján épüljön föl a program), majd önálló feladatmegoldás volt, végül István bemutatta, hogyan lehet rétegekre szétszedni ezt a kis alkalmazást, hogy ezáltal tesztelhető is legyen.
+Akasztófa játék egyszerű megvalósítása. Először István adott hozzá egy csomó segítséget (metódust, folyamatábrát, elmondta, milyen logika alapján épüljön föl a program), majd önálló feladatmegoldás volt, végül István bemutatta, hogyan lehet rétegekre szétszedni ezt a kis alkalmazást, hogy ezáltal unit tesztelhető is legyen.
