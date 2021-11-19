@@ -14,6 +14,7 @@ public class Music {
         song.title = scanner.nextLine();
         System.out.println("Hány perc a hossza?");
         song.length = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println(song.band + " - " + song.title + " (" + song.length + "perc)");
     }
