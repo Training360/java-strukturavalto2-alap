@@ -153,6 +153,10 @@ A megoldásokat a `java-sv2-daily-labs06` repositoryban, a `week06-lab-tasks` pr
 
 ### Day4 (akasztófa)
 
+A mellékelt folyamatábra alapján készítsd el az akasztófajáték algoritmusát!
+
+![Folyamatábra](images/akasztofa.png)
+
 ```java
 package hangman;
 
