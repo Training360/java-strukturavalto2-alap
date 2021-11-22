@@ -192,5 +192,5 @@ A megoldásokat a `java-sv2-daily-labs07` repositoryban, a `week07-lab-tasks` pr
 
 
 ### Day01
-Készíts egy `day01.Human` nevű osztályt. Attribútumai legyenek a neve, a születési éve. Konstruktorban állítsd be az attribútumokat, de figyelj arra, hogy a programfutásának pillantában senki nem lehet 120 évesnél öregebb, tehát ha ez nem teljesül, akkor dobjunk `IllegalArgumentException` kivételt. Fontos még, hogy a neve is legalább két részből kell, hogy álljon (vezeték és kersztnév)!
+Készíts egy `day01.Human` nevű osztályt. Attribútumai legyenek a neve, a születési éve. Konstruktorban állítsd be az attribútumokat, de figyelj arra, hogy a program futásának pillantában senki nem lehet 120 évesnél öregebb, tehát ha ez nem teljesül, akkor dobjunk `IllegalArgumentException` kivételt. Fontos még, hogy a neve is legalább két részből kell, hogy álljon (vezeték és kersztnév)!
 Készíts unit teszteket!
