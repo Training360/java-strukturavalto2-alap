@@ -116,7 +116,7 @@ Készíts egy `findMovieByTime(LocalDateTime time)` nevű metódust, ami listáb
 
 A feladathoz tartozó main metódus: 
 
-```
+```java
   public static void main(String[] args) {
         Cinema cinema = new Cinema();
 
@@ -184,3 +184,13 @@ public class HangmanMain {
 }
 
 ```
+### Day05
+Készíts egy `day05.Product` nevű oszályt, mely tartalmazza egy termék nevét, típusát (enum) és árát dollárban (double). Készíts egy `day05.Store` nevű osztályt, legyen benne lista és add metódus. Határozd meg, hogy termék típusonként hány termék van a listában. (Ha ismered a Map adatszerkezetet oldd meg nyugodtan azzal)
+
+## Week07
+A megoldásokat a `java-sv2-daily-labs07` repositoryban, a `week07-lab-tasks` projektben valósítsd meg.
+
+
+### Day01
+Készíts egy `day01.Human` nevű osztályt. Attribútumai legyenek a neve, a születési éve. Konstruktorban állítsd be az attribútumokat, de figyelj arra, hogy a programfutásának pillantában senki nem lehet 120 évesnél öregebb, tehát ha ez nem teljesül, akkor dobjunk `IllegalArgumentException` kivételt. Fontos még, hogy a neve is legalább két részből kell, hogy álljon (vezeték és kersztnév)!
+Készíts unit teszteket!
