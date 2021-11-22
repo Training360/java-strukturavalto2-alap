@@ -138,3 +138,7 @@ Akasztófa játék egyszerű megvalósítása. Először István adott hozzá eg
 ## 2021.11.19.
 
 Közös interaktív kvíz, feladatmegoldás, a feladat tesztelésének elkezdése.
+
+## 2021.11.22.
+
+A kiadott feladat megoldása. Hallgatói kérdések és azok megválaszolása a kivételkezelés témakörében. Miért van szükség kivételkezelésre?
