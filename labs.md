@@ -205,8 +205,8 @@ Star Wars;1977;George Lucas
 Lord Of The Rings;2002;Peter Jackson
 Jaws;1975;Steven Spielberg
 ```
-Hozzd létre az adatokból a `movies.csv` állományt a `src/main/resources` könvtárban. 
+Hozzd létre az adatokból a `movies.csv` állományt a `src/main/resources` könyvtárban. 
 Hozz létre egy `day02.Movie` nevű osztályt, ami a file egy sorát reprezentálja.
 Majd készítsd el a `day02.MovieService` nevű osztályt, aminek van egy filmek listája
-és konstruktorban beolvassa a paraméterül átaadott file tartalmát!
+és konstruktorban beolvassa a paraméterül (Path) átaadott file tartalmát!
 Készíts unit teszteket!
