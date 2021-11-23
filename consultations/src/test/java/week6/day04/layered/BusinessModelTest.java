@@ -1,4 +1,4 @@
-package week6.day4.layered;
+package week6.day04.layered;
 
 import org.junit.jupiter.api.Test;
 
