@@ -194,3 +194,19 @@ A megoldásokat a `java-sv2-daily-labs07` repositoryban, a `week07-lab-tasks` pr
 ### Day01
 Készíts egy `day01.Human` nevű osztályt. Attribútumai legyenek a neve, a születési éve. Konstruktorban állítsd be az attribútumokat, de figyelj arra, hogy a program futásának pillantában senki nem lehet 120 évesnél öregebb, tehát ha ez nem teljesül, akkor dobjunk `IllegalArgumentException` kivételt. Fontos még, hogy a neve is legalább két részből kell, hogy álljon (vezeték és kersztnév)!
 Készíts unit teszteket!
+
+
+### Day02
+Adott egy fájl tartalma:
+```
+Jurassic park;1993;Steven Spielberg
+Titanic;1997;James Cameron
+Star Wars;1977;George Lucas
+Lord Of The Rings;2002;Peter Jackson
+Jaws;1975;Steven Spielberg
+```
+Hozzd létre az adatokból a `movies.csv` állományt a `src/main/resources` könvtárban. 
+Hozz létre egy `day02.Movie` nevű osztályt, ami a file egy sorát reprezentálja.
+Majd készítsd el a `day02.MovieService` nevű osztályt, aminek van egy filmek listája
+és konstruktorban beolvassa a paraméterül átaadott file tartalmát!
+Készíts unit teszteket!
