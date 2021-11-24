@@ -6,10 +6,9 @@ import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+class CreditCardTest {
 
-public class CreditCardTest {
-
-    public final Rate[] rates = {new Rate(Currency.HUF, 1.0),
+    final Rate[] rates = {new Rate(Currency.HUF, 1.0),
             new Rate(Currency.EUR, 308.23),
             new Rate(Currency.SFR, 289.24),
             new Rate(Currency.GBP, 362.23),
@@ -24,7 +23,7 @@ public class CreditCardTest {
 
 
     @Test
-    public void testConstructorW3Parameters() {
+    void testConstructorW3Parameters() {
         //Given
         CreditCard card = new CreditCard(1000, Currency.EUR, Arrays.asList(rates));
         //Then
@@ -32,7 +31,7 @@ public class CreditCardTest {
     }
 
     @Test
-    public void testConstructorW1Parameter() {
+    void testConstructorW1Parameter() {
         //Given
         CreditCard card = new CreditCard(100_000);
         //Then
@@ -40,7 +39,7 @@ public class CreditCardTest {
     }
 
     @Test
-    public void testPaymentW2ParametersSuccess() {
+    void testPaymentW2ParametersSuccess() {
         //Given
         CreditCard card = new CreditCard(100_000);
         //Then
@@ -49,7 +48,7 @@ public class CreditCardTest {
     }
 
     @Test
-    public void testPaymentW2ParametersFail() {
+    void testPaymentW2ParametersFail() {
         //Given
         CreditCard card = new CreditCard(100_000);
         //Then
@@ -58,7 +57,7 @@ public class CreditCardTest {
     }
 
     @Test
-    public void testPaymentW1ParameterSuccess() {
+    void testPaymentW1ParameterSuccess() {
         //Given
         CreditCard card = new CreditCard(100_000);
         //Then
@@ -67,7 +66,7 @@ public class CreditCardTest {
     }
 
     @Test
-    public void testPaymentW1ParameterFail() {
+    void testPaymentW1ParameterFail() {
         //Given
         CreditCard card = new CreditCard(100_000);
         //Then

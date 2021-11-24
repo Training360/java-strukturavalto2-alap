@@ -1,13 +1,13 @@
 package methodoverloading;
 
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class TimeTest {
+class TimeTest {
+
     @Test
-    public void testCreateTimeWith3Parameters() {
+    void testCreate() {
         //Given
         Time time = new Time(13, 14, 15);
         //Then
@@ -17,40 +17,7 @@ public class TimeTest {
     }
 
     @Test
-    public void testCreateTimeWith2Parameters() {
-        //Given
-        Time time = new Time(13, 14);
-        //Then
-        assertEquals(13, time.getHours());
-        assertEquals(14, time.getMinutes());
-        assertEquals(0, time.getSeconds());
-    }
-
-    @Test
-    public void testCreateTimeWith1Parameter() {
-        //Given
-        Time time = new Time(13);
-        //Then
-        assertEquals(13, time.getHours());
-        assertEquals(0, time.getMinutes());
-        assertEquals(0, time.getSeconds());
-
-    }
-
-    @Test
-    public void testCreateTimeWithTimeParameter() {
-        //Given
-        Time anotherTime = new Time(13, 14, 15);
-        //When
-        Time time = new Time(anotherTime);
-
-        assertEquals(13, time.getHours());
-        assertEquals(14, time.getMinutes());
-        assertEquals(15, time.getSeconds());
-    }
-
-    @Test
-    public void testIsEqualWith3Parameters() {
+    void testIsEqualWithIntParameters() {
         //Given
         Time time = new Time(13, 14, 15);
         //Then
@@ -59,18 +26,18 @@ public class TimeTest {
     }
 
     @Test
-    public void testIsEqualWithTimeParameter() {
+    void testIsEqualWithTimeParameter() {
         //Given
         Time time = new Time(13, 14, 15);
-        Time anotherTime = new Time(13, 14, 15);
-        Time laterTime = new Time(14, 14, 15);
+        Time firstAnotherTime = new Time(13, 14, 15);
+        Time secondAnotherTime = new Time(11, 12, 13);
         //Then
-        assertTrue(time.isEqual(anotherTime));
-        assertFalse(time.isEqual(laterTime));
+        assertTrue(time.isEqual(firstAnotherTime));
+        assertFalse(time.isEqual(secondAnotherTime));
     }
 
     @Test
-    public void testIsEarlierWith3Parameters() {
+    void testIsEarlierWithIntParameters() {
         //Given
         Time time = new Time(13, 14, 15);
         //Then
@@ -79,13 +46,15 @@ public class TimeTest {
     }
 
     @Test
-    public void testIsEarlierWithTimeParameter() {
+    void testIsEarlierWithTimeParameter() {
         //Given
         Time time = new Time(13, 14, 15);
-        Time laterTime = new Time(15, 14, 15);
-        Time earlierTime = new Time(10, 14, 15);
+        Time firstAnotherTime = new Time(13, 14, 15);
+        Time secondAnotherTime = new Time(15, 16, 17);
+        Time thirdAnothertime = new Time(11, 12, 13);
         //Then
-        assertTrue(time.isEarlier(laterTime));
-        assertFalse(time.isEarlier(earlierTime));
+        assertFalse(time.isEarlier(firstAnotherTime));
+        assertTrue(time.isEarlier(secondAnotherTime));
+        assertFalse(time.isEarlier(thirdAnothertime));
     }
 }

@@ -7,7 +7,7 @@ public class SimpleDate {
     private int day;
 
     public void setDate(int year, int month, int day) {
-        if (!isCorrect(year, month, day)){
+        if (!isCorrect(year, month, day)) {
             throw new IllegalArgumentException("One or more given parameter cannot be applied! " + year + ", " + month + ", " + day);
         }
         this.year = year;

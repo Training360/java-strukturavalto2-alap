@@ -12,22 +12,9 @@ public class Time {
         this.seconds = seconds;
     }
 
-    public Time(int hours, int minutes) {
-        this.hours = hours;
-        this.minutes = minutes;
+    public int getSeconds() {
+        return seconds;
     }
-
-    public Time(int hours) {
-        this.hours = hours;
-    }
-
-    public Time(Time time) {
-        this.hours = time.hours;
-        this.minutes= time.minutes;
-        this.seconds = time.seconds;
-    }
-
-    public int getSeconds() { return seconds; }
 
     public int getHours() {
         return hours;

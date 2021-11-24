@@ -27,10 +27,12 @@ public class BodyMass {
 
     public BmiCategory getBody() {
         double bmi = getBodyMassIndex();
-        if (bmi < LOWER_LIMIT)
+        if (bmi < LOWER_LIMIT) {
             return BmiCategory.UNDERWEIGHT;
-        if (bmi > UPPER_LIMIT)
+        }
+        if (bmi > UPPER_LIMIT) {
             return BmiCategory.OVERWEIGHT;
+        }
         return BmiCategory.NORMAL;
     }
 

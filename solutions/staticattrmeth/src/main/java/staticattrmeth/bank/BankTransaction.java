@@ -1,54 +1,51 @@
 package staticattrmeth.bank;
 
-import java.math.BigDecimal;
-import java.math.RoundingMode;
-
 public class BankTransaction {
 
-    private static final long MIN_TRX_VALUE = 1;
-    private static final long MAX_TRX_VALUE = 10_000_000;
-    private static long countTrx = 0;
-    private static BigDecimal sumOfTrxs = new BigDecimal("0");
-    private static long currentMinValue = MAX_TRX_VALUE;
-    private static long currentMaxValue = MIN_TRX_VALUE;
+    private static final long MIN_TRANSACTION_VALUE = 1;
+    private static final long MAX_TRANSACTION_VALUE = 10_000_000;
+    private static long countOfTransactions = 0;
+    private static long sumOfTransactions = 0;
+    private static long currentMinValue = MAX_TRANSACTION_VALUE;
+    private static long currentMaxValue = MIN_TRANSACTION_VALUE;
 
-    private long trxValue;
+    private long transactionValue;
 
-    public BankTransaction(long trxValue) {
-        if (trxValue <= MIN_TRX_VALUE && trxValue >= MAX_TRX_VALUE) {
-            throw new IllegalArgumentException("This transaction cannot be excepted! " + trxValue);
+    public BankTransaction(long transactionValue) {
+        if (transactionValue <= MIN_TRANSACTION_VALUE && transactionValue >= MAX_TRANSACTION_VALUE) {
+            throw new IllegalArgumentException("This transaction cannot be accepted! " + transactionValue);
         }
-        countTrx++;
-        sumOfTrxs = sumOfTrxs.add(new BigDecimal(Long.toString(trxValue)));
-        if (trxValue < currentMinValue) currentMinValue = trxValue;
-        if (trxValue > currentMaxValue) currentMaxValue = trxValue;
-        this.trxValue = trxValue;
+        countOfTransactions++;
+        sumOfTransactions += transactionValue;
+        if (transactionValue < currentMinValue) currentMinValue = transactionValue;
+        if (transactionValue > currentMaxValue) currentMaxValue = transactionValue;
+        this.transactionValue = transactionValue;
     }
 
     public static void initTheDay() {
-        countTrx = 0;
-        sumOfTrxs = new BigDecimal("0");
-        currentMinValue = MAX_TRX_VALUE;
-        currentMaxValue = MIN_TRX_VALUE;
+        countOfTransactions = 0;
+        sumOfTransactions = 0;
+        currentMinValue = MAX_TRANSACTION_VALUE;
+        currentMaxValue = MIN_TRANSACTION_VALUE;
     }
 
-    public static BigDecimal averageOfTransaction() {
-        return countTrx == 0 ? new BigDecimal("0") : sumOfTrxs.divide(new BigDecimal(Long.toString(countTrx)), 0, RoundingMode.HALF_UP);
+    public static long getAverageOfTransaction() {
+        return countOfTransactions == 0 ? 0 : Math.round((double) sumOfTransactions / countOfTransactions);
     }
 
     public static long getCurrentMinValue() {
-        return countTrx == 0 ? 0 : currentMinValue;
+        return countOfTransactions == 0 ? 0 : currentMinValue;
     }
 
     public static long getCurrentMaxValue() {
-        return countTrx == 0 ? 0 : currentMaxValue;
+        return countOfTransactions == 0 ? 0 : currentMaxValue;
     }
 
-    public static BigDecimal getSumOfTrxs() {
-        return sumOfTrxs;
+    public static long getSumOfTransactions() {
+        return sumOfTransactions;
     }
 
-    public long getTrxValue() {
-        return trxValue;
+    public long getTransactionValue() {
+        return transactionValue;
     }
 }

@@ -4,9 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class PointTest {
+class PointTest {
+
     @Test
-    public void creation() {
+    void testCreation() {
         Point point = new Point(5, 6);
 
         assertEquals(5L, point.getX());
@@ -14,12 +15,10 @@ public class PointTest {
     }
 
     @Test
-    public void distance() {
+    void testGetDistance() {
         Point point1 = new Point(0, 0);
         Point point2 = new Point(100, 100);
 
-
         assertEquals(141L, point1.distance(point2));
     }
-
 }

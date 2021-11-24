@@ -5,9 +5,9 @@ import java.util.List;
 
 public class SimpleBag {
 
-    List<Object> items = new ArrayList<>();
+    private List<Object> items = new ArrayList<>();
 
-    int cursor = -1;
+    private int cursor;
 
     public SimpleBag() {
         beforeFirst();

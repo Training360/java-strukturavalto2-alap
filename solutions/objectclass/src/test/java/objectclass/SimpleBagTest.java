@@ -1,14 +1,13 @@
 package objectclass;
 
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class SimpleBagTest {
+class SimpleBagTest {
 
     @Test
-    public void testConstructor() {
+    void testCreate() {
         //Given
         SimpleBag bag = new SimpleBag();
         //Then
@@ -18,12 +17,13 @@ public class SimpleBagTest {
 
 
     @Test
-    public void testPut() {
+    void testPut() {
         //Given
         SimpleBag bag = new SimpleBag();
         //When
         bag.putItem("alma");
-        bag.putItem((new Book("Rejtő Jenő", "Az ellopott cirkáló")));
+        bag.putItem(12);
+        bag.putItem(new Book("Rejtő Jenő", "Az ellopott cirkáló"));
         bag.putItem(new Beer("Borsodi", 239));
         //Then
         assertFalse(bag.isEmpty());
@@ -32,22 +32,21 @@ public class SimpleBagTest {
     }
 
     @Test
-    public void testIteration() {
+    void testIteration() {
         //Given
         SimpleBag bag = new SimpleBag();
         //When
         bag.putItem(new Beer("Heineken", 250));
         bag.putItem(new Book("Rejtő Jenő", "Az ellopott cirkáló"));
         bag.putItem(new Beer("Borsodi", 239));
-        //Then
         while (bag.hasNext()) {
-            assertTrue(bag.next().getClass().toString().contains("objectclass.B"));
         }
+        //Then
         assertEquals(2, bag.getCursor());
     }
 
     @Test
-    public void testContains() {
+    void testContains() {
         //Given
         SimpleBag bag = new SimpleBag();
         //When

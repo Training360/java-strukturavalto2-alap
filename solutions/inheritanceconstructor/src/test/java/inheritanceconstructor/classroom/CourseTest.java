@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class CourseTest {
+class CourseTest {
 
     @Test
-    public void constructorTest() {
+    void testCreate() {
         //Given
         Course course = new Course(20, Facility.COMPUTERS);
         //Then

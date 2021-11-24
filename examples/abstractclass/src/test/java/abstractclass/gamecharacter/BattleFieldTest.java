@@ -6,11 +6,10 @@ import java.util.Random;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-
-public class BattleFieldTest {
+class BattleFieldTest {
 
     @Test
-    public void fight() {
+    void testFight() {
         Random random = new Random(123);
         BattleField battleField = new BattleField();
         Character characterArcher = new Archer(new Point(0, 0), random);
@@ -22,7 +21,7 @@ public class BattleFieldTest {
     }
 
     @Test
-    public void fightCloseTogether() {
+    void testFightCloseTogether() {
         Random random = new Random(123);
         BattleField battleField = new BattleField();
         Character characterArcher = new Archer(new Point(0, 0), random);

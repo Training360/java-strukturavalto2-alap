@@ -14,6 +14,6 @@ public class ClassRoom extends Room {
     }
 
     public boolean isSuitable(Course course) {
-        return course.getParticipants() <= getCapacity() && course.getFacilityNeeded() == getFacility();
+        return course.getParticipants() <= this.getCapacity() && course.getFacilityNeeded() == facility;
     }
 }

@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SimpleTimeTest {
+class SimpleTimeTest {
 
     @Test
-    public void constructorTest2Parameters() {
+    void constructorTest2Parameters() {
         //Given
         SimpleTime time = new SimpleTime(15, 16);
         //Then
@@ -16,7 +16,7 @@ public class SimpleTimeTest {
     }
 
     @Test
-    public void constructorTest1Parameter() {
+    void constructorTest1Parameter() {
         //Given
         SimpleTime time = new SimpleTime(15);
         //Then
@@ -25,7 +25,7 @@ public class SimpleTimeTest {
     }
 
     @Test
-    public void constructorTestSimpleTimeParameter() {
+    void constructorTestSimpleTimeParameter() {
         //Given
         SimpleTime time = new SimpleTime(new SimpleTime(15, 16));
         //Then
@@ -34,34 +34,34 @@ public class SimpleTimeTest {
     }
 
     @Test
-    public void differenceAfter() {
+    void differenceAfter() {
         //Given
         SimpleTime time = new SimpleTime(new SimpleTime(15, 16));
         SimpleTime anotherTime = new SimpleTime(new SimpleTime(14, 10));
         //Then
-        assertEquals(66, time.difference(anotherTime));
+        assertEquals(66, time.getDifference(anotherTime));
     }
 
     @Test
-    public void differenceIfEqual() {
+    void differenceIfEqual() {
         //Given
         SimpleTime time = new SimpleTime(new SimpleTime(15, 16));
         SimpleTime anotherTime = new SimpleTime(new SimpleTime(15, 16));
         //Then
-        assertEquals(0, time.difference(anotherTime));
+        assertEquals(0, time.getDifference(anotherTime));
     }
 
     @Test
-    public void differenceEarlier() {
+    void differenceEarlier() {
         //Given
         SimpleTime time = new SimpleTime(new SimpleTime(15, 16));
         SimpleTime anotherTime = new SimpleTime(new SimpleTime(17, 26));
         //Then
-        assertEquals(-130, time.difference(anotherTime));
+        assertEquals(-130, time.getDifference(anotherTime));
     }
 
     @Test
-    public void toStringTest() {
+    void toStringTest() {
         //Given
         SimpleTime time = new SimpleTime(new SimpleTime(15, 16));
         //Then

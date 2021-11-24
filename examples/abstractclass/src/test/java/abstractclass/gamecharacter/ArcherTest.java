@@ -8,11 +8,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 
-
-public class ArcherTest {
+class ArcherTest {
 
     @Test
-    public void creation() {
+    void testCreation() {
         Random random = new Random(123);
         Character character = new Archer(new Point(5, 10), random);
 
@@ -23,11 +22,10 @@ public class ArcherTest {
     }
 
     @Test
-    public void kill() {
+    void testKill() {
         Random random = new Random(123);
         Archer offender = new Archer(new Point(0, 0), random);
         Character defender = new Archer(new Point(12, 0), random);
-
         while (defender.getHitPoint() > 0) {
             offender.secondaryAttack(defender);
         }
@@ -37,16 +35,14 @@ public class ArcherTest {
     }
 
     @Test
-    public void secondaryAttack() throws Exception {
+    void testSecondaryAttack() throws Exception {
         Random random = new Random(123);
         Archer offender = new Archer(new Point(0, 0), random);
         Character defender = new Archer(new Point(12, 0), random);
-
         offender.secondaryAttack(defender);
 
         assertEquals(100, offender.getHitPoint());
         assertTrue(defender.getHitPoint() >= 96);
         assertEquals(99, offender.getNumberOfArrow());
     }
-
 }

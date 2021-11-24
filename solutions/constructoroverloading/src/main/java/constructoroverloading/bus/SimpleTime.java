@@ -28,7 +28,7 @@ public class SimpleTime {
         return minutes;
     }
 
-    public int difference(SimpleTime time) {
+    public int getDifference(SimpleTime time) {
         return timeInMinutes() - time.timeInMinutes();
     }
 

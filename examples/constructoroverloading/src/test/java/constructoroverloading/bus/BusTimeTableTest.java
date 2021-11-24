@@ -8,10 +8,9 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
+class BusTimeTableTest {
 
-public class BusTimeTableTest {
-
-    private static final List<SimpleTime> TIME_TABLE = Arrays.asList(
+    static final List<SimpleTime> TIME_TABLE = Arrays.asList(
             new SimpleTime(9, 15),
             new SimpleTime(12, 45),
             new SimpleTime(14, 15),
@@ -20,7 +19,7 @@ public class BusTimeTableTest {
     );
 
     @Test
-    public void constructorTestList() {
+    void constructorTestList() {
         //Given
         BusTimeTable timetable = new BusTimeTable(TIME_TABLE);
         // When
@@ -30,7 +29,7 @@ public class BusTimeTableTest {
     }
 
     @Test
-    public void constructorTestHours() {
+    void constructorTestHours() {
         //Given
         BusTimeTable timetable = new BusTimeTable(14, 16, 30);
         // When
@@ -41,19 +40,19 @@ public class BusTimeTableTest {
     }
 
     @Test
-    public void testNextBus() {
+    void testNextBus() {
         //Given
         BusTimeTable timetable = new BusTimeTable(TIME_TABLE);
         // When
-        assertEquals("14:15", timetable.nextBus(new SimpleTime(13, 15)).toString());
+        assertEquals("14:15", timetable.getNextBus(new SimpleTime(13, 15)).toString());
     }
 
     @Test
-    public void nextBusShouldThrowExceptionIfNone() throws IllegalStateException {
+    void nextBusShouldThrowExceptionIfNone() throws IllegalStateException {
         BusTimeTable timetable = new BusTimeTable(TIME_TABLE);
 
-        Exception ex = assertThrows(IllegalStateException.class, () -> {
-            timetable.nextBus(new SimpleTime(18, 16));
+        IllegalStateException ex = assertThrows(IllegalStateException.class, () -> {
+            timetable.getNextBus(new SimpleTime(18, 16));
         });
         assertEquals("No more buses today!", ex.getMessage());
     }

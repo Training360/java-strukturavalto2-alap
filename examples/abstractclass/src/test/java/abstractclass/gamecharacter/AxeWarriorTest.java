@@ -7,11 +7,10 @@ import java.util.Random;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-
-public class AxeWarriorTest {
+class AxeWarriorTest {
 
     @Test
-    public void creation() {
+    void testCreation() {
         Random random = new Random(123);
         Character character = new AxeWarrior(new Point(5, 10), random);
 
@@ -22,7 +21,7 @@ public class AxeWarriorTest {
     }
 
     @Test
-    public void secondaryAttack() {
+    void testSecondaryAttack() {
         Random random = new Random(123);
         Character offender = new AxeWarrior(new Point(0, 0), random);
         Character defender = new AxeWarrior(new Point(0, 0), random);

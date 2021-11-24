@@ -48,7 +48,7 @@ public class StringTypeMain {
 
         String sample = "Abcde";
         System.out.println(sample.length());
-        System.out.println(sample.charAt(0) + ", " + sample.charAt(2));
+        System.out.println(sample.substring(0, 1) + ", " + sample.substring(2, 3));
         System.out.println(sample.substring(0, 2));
     }
 }

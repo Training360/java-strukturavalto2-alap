@@ -23,9 +23,9 @@ public class BusTimeTable {
         return timeTable;
     }
 
-    public SimpleTime nextBus(SimpleTime actual) {
+    public SimpleTime getNextBus(SimpleTime actual) {
         for (int i = 0; i < timeTable.size(); i++) {
-            if (timeTable.get(i).difference(actual) >= 0) {
+            if (timeTable.get(i).getDifference(actual) >= 0) {
                 return timeTable.get(i);
             }
         }

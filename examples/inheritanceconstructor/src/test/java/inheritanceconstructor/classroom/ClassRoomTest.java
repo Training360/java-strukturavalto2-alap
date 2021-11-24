@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class ClassRoomTest {
+class ClassRoomTest {
 
     @Test
-    public void constructorTest() {
+    void testCreate() {
         //Given
         ClassRoom classroom = new ClassRoom("122", 20, Facility.CHALKBOARD);
         //Then
@@ -17,7 +17,7 @@ public class ClassRoomTest {
     }
 
     @Test
-    public void isSuitableSuccess() {
+    void testIsSuitableSuccess() {
         //Given
         ClassRoom classroom = new ClassRoom("122", 20, Facility.COMPUTERS);
         Course course = new Course(15, Facility.COMPUTERS);
@@ -27,7 +27,7 @@ public class ClassRoomTest {
     }
 
     @Test
-    public void isSuitableFail() {
+    void tesIsSuitableFail() {
         //Given
         ClassRoom classroom = new ClassRoom("122", 20, Facility.COMPUTERS);
         Course course = new Course(15, Facility.CHALKBOARD);

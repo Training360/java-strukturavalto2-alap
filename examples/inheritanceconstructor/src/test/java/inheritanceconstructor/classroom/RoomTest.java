@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class RoomTest {
+class RoomTest {
 
     @Test
-    public void constructorTest() {
+    void testCreate() {
         //Given
         Room room = new Room("I. em. 12.", 20);
         //Then
