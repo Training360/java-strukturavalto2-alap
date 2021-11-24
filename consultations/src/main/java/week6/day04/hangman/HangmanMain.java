@@ -1,4 +1,4 @@
-package week6.day4.hangman;
+package week6.day04.hangman;
 
 import java.util.Scanner;
 

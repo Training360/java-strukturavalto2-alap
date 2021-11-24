@@ -116,7 +116,7 @@ Készíts egy `findMovieByTime(LocalDateTime time)` nevű metódust, ami listáb
 
 A feladathoz tartozó main metódus: 
 
-```
+```java
   public static void main(String[] args) {
         Cinema cinema = new Cinema();
 
@@ -184,3 +184,29 @@ public class HangmanMain {
 }
 
 ```
+### Day05
+Készíts egy `day05.Product` nevű oszályt, mely tartalmazza egy termék nevét, típusát (enum) és árát dollárban (double). Készíts egy `day05.Store` nevű osztályt, legyen benne lista és add metódus. Határozd meg, hogy termék típusonként hány termék van a listában. (Ha ismered a Map adatszerkezetet oldd meg nyugodtan azzal)
+
+## Week07
+A megoldásokat a `java-sv2-daily-labs07` repositoryban, a `week07-lab-tasks` projektben valósítsd meg.
+
+
+### Day01
+Készíts egy `day01.Human` nevű osztályt. Attribútumai legyenek a neve, a születési éve. Konstruktorban állítsd be az attribútumokat, de figyelj arra, hogy a program futásának pillantában senki nem lehet 120 évesnél öregebb, tehát ha ez nem teljesül, akkor dobjunk `IllegalArgumentException` kivételt. Fontos még, hogy a neve is legalább két részből kell, hogy álljon (vezeték és kersztnév)!
+Készíts unit teszteket!
+
+
+### Day02
+Adott egy fájl tartalma:
+```
+Jurassic park;1993;Steven Spielberg
+Titanic;1997;James Cameron
+Star Wars;1977;George Lucas
+Lord Of The Rings;2002;Peter Jackson
+Jaws;1975;Steven Spielberg
+```
+Hozzd létre az adatokból a `movies.csv` állományt a `src/main/resources` könyvtárban. 
+Hozz létre egy `day02.Movie` nevű osztályt, ami a file egy sorát reprezentálja.
+Majd készítsd el a `day02.MovieService` nevű osztályt, aminek van egy filmek listája
+és konstruktorban beolvassa a paraméterül (Path) átadott file tartalmát!
+Készíts unit teszteket!
