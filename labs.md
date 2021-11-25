@@ -220,7 +220,7 @@ Készítsd el a `Courier` osztályt, ez fogja a futárt reprezentálni. Legyen e
 Figyeljünk viszont arra, hogy nem feltétlenül minden nap dolgozott a futár, de ha már bekerült egy 3. napi fuvar, akkor ne kerülhessen be egy 2. napi. És arra is figyelj, hogy a napon belül is sorrendben kerüljenek be az adatok. 
 Ha a paraméterül kapott `Ride` nem felel meg a feltételeknek dobjunk `IllegalArgumentException`-t.<br>
 
-Legyen egy `CourierFileManager`, amiben van egy `crateCourierByFile(Path path)` nevű metódus, ami egy paraméterül kapott
+Legyen egy `CourierFileManager`, amiben van egy `createCourierByFile(Path path)` nevű metódus, ami egy paraméterül kapott
 file alapján elkészít egy futár objektumot és visszaadja azt! <br>
 
 Egy minta file:
