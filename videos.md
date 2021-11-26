@@ -142,3 +142,19 @@ Közös interaktív kvíz, feladatmegoldás, a feladat tesztelésének elkezdés
 ## 2021.11.22.
 
 A kiadott feladat megoldása. Hallgatói kérdések és azok megválaszolása a kivételkezelés témakörében. Miért van szükség kivételkezelésre?
+
+## 2021.11.23.
+
+A kiadott feladat megoldása. Kicsit bővebben a fájlkezelésről és a kötelezően kezelendő kivételekről.
+
+## 2021.11.24.
+
+Általános ismétlés a kezdő kivétel- és fájlkezelés témakörből. Olyan kódok közös megnézése, amelyeket lehet még szebbé tenni (külön metódusba kiszervezéssel, üres sorok törlésével, a kód általános formázásával, stb.). 
+
+## 2021.11.25.
+
+Csoportmunka a kiadott feladattal, majd a megoldások bemutatása.
+
+## 2021.11.26.
+
+Közös interaktív kvíz, majd a kiadott feladat megoldása és megbeszélése.
