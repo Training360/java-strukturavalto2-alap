@@ -233,3 +233,11 @@ Egy minta file:
 4 3 9
 ```
 Itt látható, hogy a futár nem dolgozott a 3. 5. 6. és 7. napon. 
+
+### Day05
+Készíts egy `day05.Product` osztályt, mely egy eladott terméket reprezentál. A terméknek legyen neve, legyen egy eladás dátuma, és egy ára.<br>
+
+Készíts egy `day05.Store` nevű osztályt, amiben eladott termékek listája található. Legyen egy `addProduct(Product p)` metódus, amivel terméket lehet hozzáadni a listához, de ellenőrizzük, hogy az eladás dátuma nem lehet a mai napnál későbbi, különben dobjunk `IllegalArgumentExceptiont`.
+Készítsünk még egy metódust, ami egy csv fájlba írja ki a termékeket. A metódus paramétere legyen egy hónap és csak az abban a hónapban eladott termékeket írjuk ki, a termékek adatait pontosvesszővel elválasztva! <br>
+
+Bónusz: A fájl neve legyen a hónapnak megfelelő. 
