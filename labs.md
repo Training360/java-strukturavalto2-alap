@@ -241,3 +241,11 @@ Készíts egy `day05.Store` nevű osztályt, amiben eladott termékek listája t
 Készítsünk még egy metódust, ami egy csv fájlba írja ki a termékeket. A metódus paramétere legyen egy hónap és csak az abban a hónapban eladott termékeket írjuk ki, a termékek adatait pontosvesszővel elválasztva! <br>
 
 Bónusz: A fájl neve legyen a hónapnak megfelelő. 
+
+## Week08
+A megoldásokat a `java-sv2-daily-labs08` repositoryban, a `week08-lab-tasks` projektben valósítsd meg.
+
+### Day01
+
+Készíts egy `day01.NumberSequence` osztályt, aminek van egy egész számokból álló listája. Vagy egy kész listát kap konstruktoron keresztül és ez lesz az attribútum értéke, vagy három számot kap, melyből az első hogy hány véletlen számot generáljon a másik kettő pedig a minimum és maximum érték ami között generáljon. Legyen egy metódus `closeToAverage(int value)`
+,ami kigyűjti és visszaadja azokat a számokat egy listában, amik az átlagtól legfeljebb a paraméterül átadott értékben térnek el! 
