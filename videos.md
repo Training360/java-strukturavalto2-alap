@@ -158,3 +158,22 @@ Csoportmunka a kiadott feladattal, majd a megoldások bemutatása.
 ## 2021.11.26.
 
 Közös interaktív kvíz, majd a kiadott feladat megoldása és megbeszélése.
+
+## 2021.11.29.
+
+A kiadott feladat megoldása. A metódustúlterhelésről, és a statikus attribútumokról és metódusokról részletesebben.
+
+## 2021.11.30.
+
+A kiadott feladat megoldása. A rekurzióról és az Attribútumok és metódusok című fejezet leckéiről részletesebben. Néhány érdekesség a varargs-szal és a metódustúlterheléssel kapcsolatban.
+
+## 2021.12.01.
+
+Általános ismétlés a következő témakörökből:
+
+* Programozási tételek
+* Immutable objektumok
+* JavaBeans szabvány
+* Metódusok: részletes felépítés, értékmásolás szerinti paraméterátadás, metódushívások láncolása, változó hosszúságú paraméterlista, metódustúlterhelés
+* Konstruktorok: default konstruktor, paraméter nélküli konstruktor, konstruktortúlterhelés
+* Inicializátorok
