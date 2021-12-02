@@ -168,7 +168,7 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 
-Un. for-each ciklus, használjuk mindig ezt, ha lehet!
+Ún. for-each ciklus, használjuk mindig ezt, ha lehet!
 
 ```java
 List<String> names = List.of("John Doe", "Jack Doe");
@@ -370,7 +370,7 @@ public int max(List<Integer> numbers) {
 
 # Eldöntés tétele
 
-Csak 100-nál nagyobb számokat tartalmaz?
+Tartalmaz-e 100-nál nagyobb számot?
 
 ```java
 public boolean containsGreaterThanHundred(List<Integer> numbers) {
