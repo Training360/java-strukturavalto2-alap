@@ -177,3 +177,7 @@ A kiadott feladat megoldása. A rekurzióról és az Attribútumok és metóduso
 * Metódusok: részletes felépítés, értékmásolás szerinti paraméterátadás, metódushívások láncolása, változó hosszúságú paraméterlista, metódustúlterhelés
 * Konstruktorok: default konstruktor, paraméter nélküli konstruktor, konstruktortúlterhelés
 * Inicializátorok
+
+## 2021.12.02.
+
+A kiadott feladat megoldása, majd házi feladat kiadása, mert a holnapi konzultáció a maival össze fog függni.
