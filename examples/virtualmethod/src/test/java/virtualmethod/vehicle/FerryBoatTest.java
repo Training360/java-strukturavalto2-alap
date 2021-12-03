@@ -1,38 +1,33 @@
 package virtualmethod.vehicle;
 
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class FerryBoatTest {
+class FerryBoatTest {
+
     @Test
-    public void canCarryTrue() {
+    void testCanCarryTrue() {
         FerryBoat ferryBoat = new FerryBoat(2000);
-        Car car = new Car(1200, 0);
+        Car firstCar = new Car(1200, 0);
+        Car secondCar = new Van(1, 1200, 200);
 
-        assertTrue(ferryBoat.canCarry(car));
-
-        car = new Van(1, 1200, 200);
-
-        assertTrue(ferryBoat.canCarry(car));
-
+        assertTrue(ferryBoat.canCarry(firstCar));
+        assertTrue(ferryBoat.canCarry(secondCar));
     }
 
     @Test
-    public void canCarryFalse() {
+    void testCanCarryFalse() {
         FerryBoat ferryBoat = new FerryBoat(2000);
-        Car car = new Car(2000, 0);
+        Car firstCar = new Car(2000, 0);
+        Car secondCar = new Van(1, 2000, 200);
 
-        assertFalse(ferryBoat.canCarry(car));
-
-        car = new Van(1, 2000, 200);
-
-        assertFalse(ferryBoat.canCarry(car));
+        assertFalse(ferryBoat.canCarry(firstCar));
+        assertFalse(ferryBoat.canCarry(secondCar));
     }
 
     @Test
-    public void loadSuccess() {
+    void testLoadSuccess() {
         FerryBoat ferryBoat = new FerryBoat(2000);
         Car car = new Car(1200, 0);
 
@@ -40,7 +35,7 @@ public class FerryBoatTest {
     }
 
     @Test
-    public void loadFailed() {
+    void testLoadFailed() {
         FerryBoat ferryBoat = new FerryBoat(2000);
         Car car = new Car(2000, 0);
 
@@ -48,20 +43,18 @@ public class FerryBoatTest {
     }
 
     @Test
-    public void getGrossLoad() {
+    void testGetGrossLoad() {
         FerryBoat ferryBoat = new FerryBoat(2000);
         Car car = new Car(1234, 0);
-
         ferryBoat.load(car);
 
         assertEquals(2000 + FerryBoat.PERSON_AVERAGE_WEIGHT + car.getGrossLoad(), ferryBoat.getGrossLoad());
     }
 
     @Test
-    public void toStringCar() {
+    void testToStringCar() {
         FerryBoat ferryBoat = new FerryBoat(2000);
         Car car = new Car(1234, 0);
-
         ferryBoat.load(car);
 
         assertEquals("FerryBoat{" +
@@ -71,14 +64,11 @@ public class FerryBoatTest {
     }
 
     @Test
-    public void toStringVan() {
+    void testToStringVan() {
         FerryBoat ferryBoat = new FerryBoat(2000);
         Van van = new Van(1, 1200, 200);
-
         ferryBoat.load(van);
 
         assertEquals("FerryBoat{car=Van{cargoWeight=" + 200 + ", numberOfPassenger=" + 1 + ", vehicleWeight=" + 1200 + "}}", ferryBoat.toString());
-
     }
-
 }

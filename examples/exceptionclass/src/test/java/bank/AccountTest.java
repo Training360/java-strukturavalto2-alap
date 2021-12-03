@@ -5,22 +5,21 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class AccountTest {
-
+class AccountTest {
 
     @Test
-    public void constructorShouldThrowException() {
+    void testNullAccountNumberShouldThrowException() {
         String accountNumber = null;
 
-        assertThrows(IllegalArgumentException.class, () -> new Account(accountNumber, 0));
+        Exception ex = assertThrows(IllegalArgumentException.class, () -> new Account(accountNumber, 0));
+        assertEquals("Account number should not be null!", ex.getMessage());
     }
 
     @Test
-    public void constructorShouldInitialize() {
+    void testCreate() {
         String accountNumber = "11112";
         double balance = 1.2;
         double maxSubtract = 100000;
-
         Account account = new Account(accountNumber, balance);
 
         assertEquals(accountNumber, account.getAccountNumber());
@@ -29,17 +28,18 @@ public class AccountTest {
     }
 
     @Test
-    public void setMaxSubtractShouldThrowException() {
+    void testSetMaxSubtractShouldThrowException() {
         double maxSubtract = -10;
         Account account = new Account("a", 0);
-        InvalidBankOperationException ex = assertThrows(InvalidBankOperationException.class, () -> account.setMaxSubtract(maxSubtract));
-        assertEquals(ErrorCode.INVALID_AMOUNT, ex.getErrorCode());
+
+        InvalidAmountBankOperationException ex = assertThrows(InvalidAmountBankOperationException.class,
+                () -> account.setMaxSubtract(maxSubtract));
+        assertEquals("Invalid amount!", ex.getMessage());
     }
 
     @Test
-    public void setMaxSubtractShouldModify() {
+    void testSetMaxSubtractShouldModify() {
         double maxSubtract = 120000;
-
         Account account = new Account("a", 0);
         account.setMaxSubtract(maxSubtract);
 
@@ -47,77 +47,71 @@ public class AccountTest {
     }
 
     @Test
-    public void subtractInvalidAmountShouldThrowException() {
+    void testSubtractInvalidAmountShouldThrowException() {
         double amount = -10;
+        Account account = new Account("a", 100);
 
-        Account account = new Account("a", 0);
-        InvalidBankOperationException ex = assertThrows(InvalidBankOperationException.class, () -> account.subtract(amount));
-        assertEquals(ErrorCode.INVALID_AMOUNT, ex.getErrorCode());
-
+        InvalidAmountBankOperationException ex = assertThrows(InvalidAmountBankOperationException.class,
+                () -> account.subtract(amount));
+        assertEquals("Invalid amount!", ex.getMessage());
     }
 
     @Test
-    public void subtractLowBalanceShouldThrowException() {
+    void testSubtractLowBalanceShouldThrowException() {
         double amount = 10;
-
         Account account = new Account("a", 5);
-        InvalidBankOperationException ex = assertThrows(InvalidBankOperationException.class, () -> account.subtract(amount));
-        assertEquals(ErrorCode.LOW_BALANCE, ex.getErrorCode());
 
+        LowBalanceBankOperationException ex = assertThrows(LowBalanceBankOperationException.class,
+                () -> account.subtract(amount));
+        assertEquals("Low balance!", ex.getMessage());
     }
 
     @Test
-    public void subtractShouldCorrectReturn() {
+    void testSubtractShouldCorrectReturn() {
         double balance = 300;
         double amount = 10;
-
         Account account = new Account("a", balance);
 
         assertEquals(290, account.subtract(amount));
     }
 
     @Test
-    public void subtractShouldModifyBalance() {
+    void testSubtractShouldModifyBalance() {
         double balance = 300;
         double amount = 10;
-
         Account account = new Account("a", balance);
-
         account.subtract(amount);
+
         assertEquals(290, account.getBalance());
     }
 
+
     @Test
-    public void depositShouldThrowException() {
+    void testDepositShouldThrowException() {
         double amount = -10;
+        Account account = new Account("a", 100);
 
-        Account account = new Account("a", 0);
-        InvalidBankOperationException ex = assertThrows(InvalidBankOperationException.class, () -> account.deposit(amount));
-        assertEquals(ErrorCode.INVALID_AMOUNT, ex.getErrorCode());
-
-
+        InvalidAmountBankOperationException ex = assertThrows(InvalidAmountBankOperationException.class,
+                () -> account.deposit(amount));
+        assertEquals("Invalid amount!", ex.getMessage());
     }
 
     @Test
-    public void depositShouldCorrectReturn() {
+    void testDepositShouldCorrectReturn() {
         double balance = 300;
         double amount = 10;
-
         Account account = new Account("a", balance);
 
         assertEquals(310, account.deposit(amount));
-
     }
 
     @Test
-    public void depositShouldModifyBalance() {
+    void testDepositShouldModifyBalance() {
         double balance = 300;
         double amount = 10;
-
         Account account = new Account("a", balance);
-
         account.deposit(amount);
+
         assertEquals(310, account.getBalance());
     }
-
 }

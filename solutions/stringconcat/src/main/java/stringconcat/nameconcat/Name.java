@@ -7,7 +7,7 @@ public class Name {
     private String givenName;
     private Title title;
 
-    public Name(String familyName, String middleName, String givenName, stringconcat.nameconcat.Title title) {
+    public Name(String familyName, String middleName, String givenName, Title title) {
         this.familyName = familyName;
         this.middleName = middleName;
         this.givenName = givenName;

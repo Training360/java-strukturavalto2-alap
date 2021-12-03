@@ -8,8 +8,8 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 class CarTest {
 
     @Test
-    void testIncorrectParameterShouldThrowException() throws IllegalArgumentException {
-        Exception ex = assertThrows(IllegalArgumentException.class, () -> new Car(5.0, 50.0, 40.0));
+    void testIncorrectParameterShouldThrowException() {
+        IllegalArgumentException ex = assertThrows(IllegalArgumentException.class, () -> new Car(5.0, 50.0, 40.0));
         assertEquals("Tank capacity is less than fuel!", ex.getMessage());
     }
 
@@ -34,10 +34,10 @@ class CarTest {
     }
 
     @Test
-    void testNotEnoughFuelShouldThrowException() throws RuntimeException {
+    void testNotEnoughFuelShouldThrowException() {
         Car car = new Car(5.0, 25.0, 40.0);
 
-        Exception ex = assertThrows(RuntimeException.class, () -> car.drive(600));
+        IllegalArgumentException ex = assertThrows(IllegalArgumentException.class, () -> car.drive(600));
         assertEquals("Not enough fuel available!", ex.getMessage());
     }
 

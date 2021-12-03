@@ -3,6 +3,7 @@ package staticattrmeth.bank;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class BankTransactionTest {
 
@@ -40,5 +41,15 @@ class BankTransactionTest {
         assertEquals(20_000L, BankTransaction.getCurrentMaxValue());
         assertEquals(30_000L, BankTransaction.getSumOfTransactions());
         assertEquals(15_000L, BankTransaction.getAverageOfTransaction());
+    }
+
+    @Test
+    void testWrongTransaction() {
+        //Given
+        BankTransaction.initTheDay();
+        //Then
+        IllegalArgumentException ex = assertThrows(IllegalArgumentException.class,
+                () -> new BankTransaction(10_000_001));
+        assertEquals("This transaction cannot be accepted! 10000001", ex.getMessage());
     }
 }

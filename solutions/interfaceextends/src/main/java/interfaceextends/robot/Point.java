@@ -2,9 +2,9 @@ package interfaceextends.robot;
 
 public class Point {
 
-    final private long x;
-    final private long y;
-    final private long z;
+    private final long x;
+    private final long y;
+    private final long z;
 
     public Point(long x, long y, long z) {
         this.x = x;

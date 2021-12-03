@@ -5,30 +5,30 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class CourseTest {
+class CourseTest {
 
     @Test
-    public void constructorNullNameShouldThrowException() {
+    void testNullNameShouldThrowException() {
         String name = null;
         SimpleTime begin = new SimpleTime(1, 1);
 
-        assertThrows(IllegalArgumentException.class, () -> new Course(name, begin));
+        Exception ex = assertThrows(IllegalArgumentException.class, () -> new Course(name, begin));
+        assertEquals("Name is null!", ex.getMessage());
     }
 
     @Test
-    public void constructorNullBeginShouldThrowException() {
+    void testNullBeginShouldThrowException() {
         String name = "coursename";
         SimpleTime begin = null;
 
-        assertThrows(IllegalArgumentException.class, () -> new Course(name, begin));
-
+        Exception ex = assertThrows(IllegalArgumentException.class, () -> new Course(name, begin));
+        assertEquals("Begin is null!", ex.getMessage());
     }
 
     @Test
-    public void constructorShouldInitialize() {
+    void testCreate() {
         String name = "courseName";
         SimpleTime begin = new SimpleTime(1, 1);
-
         Course course = new Course(name, begin);
 
         assertEquals(name, course.getName());
@@ -36,14 +36,12 @@ public class CourseTest {
     }
 
     @Test
-    public void toStringShouldReturnCorrectFormat() {
+    void testToStringShouldReturnCorrectFormat() {
         String name = "courseName";
         String beginStr = "12:05";
         SimpleTime begin = new SimpleTime(beginStr);
-
         Course course = new Course(name, begin);
 
         assertEquals(String.format("%s: %s", beginStr, name), course.toString());
     }
-
 }

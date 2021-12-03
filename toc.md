@@ -170,6 +170,8 @@ Absztrakt osztályok és interfészek
 * enumabstract - Absztrakt metódusok implementálása felsorolásos típusokban
 * statemachine - Állapotgép
 
+### Haladó objektumorientáltság és kivételkezelés
+
 Haladó OO elvek
 
 * polymorphism - Polimorfizmus
@@ -178,11 +180,7 @@ Haladó OO elvek
 
 Projektfeladat
 
-
-
-### Kivétel- és fájlkezelés
-
-Kivételkezelés
+Haladó kivételkezelés
 
 * exceptions - Kivételkezelés
 * exceptionclass - Saját kivétel

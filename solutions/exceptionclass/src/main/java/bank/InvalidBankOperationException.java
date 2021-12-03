@@ -2,19 +2,14 @@ package bank;
 
 public class InvalidBankOperationException extends RuntimeException {
 
-    private ErrorCode errorCode;
-
-    public InvalidBankOperationException(ErrorCode errorCode) {
-        this.errorCode = errorCode;
+    public InvalidBankOperationException() {
     }
 
-    public InvalidBankOperationException(String message, ErrorCode errorCode) {
+    public InvalidBankOperationException(String message) {
         super(message);
-        this.errorCode = errorCode;
     }
 
-    public ErrorCode getErrorCode() {
-        return this.errorCode;
+    public InvalidBankOperationException(String message, Throwable cause) {
+        super(message, cause);
     }
-
 }

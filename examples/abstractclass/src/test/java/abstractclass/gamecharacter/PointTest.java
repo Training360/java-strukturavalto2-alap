@@ -19,6 +19,6 @@ class PointTest {
         Point point1 = new Point(0, 0);
         Point point2 = new Point(100, 100);
 
-        assertEquals(141L, point1.distance(point2));
+        assertEquals(141L, point1.getDistance(point2));
     }
 }

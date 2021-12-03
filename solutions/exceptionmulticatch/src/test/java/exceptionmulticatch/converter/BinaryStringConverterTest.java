@@ -4,37 +4,37 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class BinaryStringConverterTest {
-
+class BinaryStringConverterTest {
 
     @Test
-    public void binaryStringToBooleanArrayShouldInvalidStringThrowException() {
+    void testBinaryStringToBooleanArrayShouldInvalidStringThrowException() {
         String binaryString = "011200";
         BinaryStringConverter converter = new BinaryStringConverter();
 
-        assertThrows(IllegalArgumentException.class, () -> converter.binaryStringToBooleanArray(binaryString));
+        Exception ex = assertThrows(IllegalArgumentException.class, () -> converter.binaryStringToBooleanArray(binaryString));
+        assertEquals("Binary string is not valid.", ex.getMessage());
     }
 
     @Test
-    public void binaryStringToBooleanArrayShouldConvert() {
+    void testBinaryStringToBooleanArrayShouldConvert() {
         String binaryString = "0111001";
         BinaryStringConverter converter = new BinaryStringConverter();
-
         boolean[] expected = new boolean[]{false, true, true, true, false, false, true};
 
         assertArrayEquals(expected, converter.binaryStringToBooleanArray(binaryString));
     }
 
     @Test
-    public void booleanArrayToBinaryStringShouldEmptyArrayThrowException() {
+    void testBooleanArrayToBinaryStringShouldEmptyArrayThrowException() {
         boolean[] booleans = new boolean[0];
         BinaryStringConverter converter = new BinaryStringConverter();
 
-        assertThrows(IllegalArgumentException.class, () -> converter.booleanArrayToBinaryString(booleans));
+        Exception ex = assertThrows(IllegalArgumentException.class, () -> converter.booleanArrayToBinaryString(booleans));
+        assertEquals("Boolean array is empty.", ex.getMessage());
     }
 
     @Test
-    public void booleanArrayToBinaryStringShouldConvert() {
+    void testBooleanArrayToBinaryStringShouldConvert() {
         boolean[] booleans = new boolean[]{false, true, true, false, false};
         BinaryStringConverter converter = new BinaryStringConverter();
         String expected = "01100";

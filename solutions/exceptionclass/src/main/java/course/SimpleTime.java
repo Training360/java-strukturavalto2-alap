@@ -9,24 +9,24 @@ public class SimpleTime {
         set(hour, minute);
     }
 
-    public SimpleTime(String timeStr) {
-        if (timeStr == null)
+    public SimpleTime(String timeString) {
+        if (timeString == null)
             throw new InvalidTimeException("Time is null");
-        if (timeStr.length() != "hh:mm".length() || timeStr.charAt(2) != ':')
+        if (timeString.length() != "hh:mm".length() || timeString.charAt(2) != ':')
             throw new InvalidTimeException("Time is not hh:mm");
-        int h;
+        int hour;
         try {
-            h = Integer.parseInt(timeStr.substring(0,2));
+            hour = Integer.parseInt(timeString.substring(0,2));
         } catch (NumberFormatException ex) {
             throw new InvalidTimeException("Time is not hh:mm");
         }
-        int m;
+        int minute;
         try {
-            m = Integer.parseInt(timeStr.substring(3, 5));
+            minute = Integer.parseInt(timeString.substring(3, 5));
         } catch (NumberFormatException ex) {
             throw new InvalidTimeException("Time is not hh:mm");
         }
-        set(h, m);
+        set(hour, minute);
     }
 
     private void set(int hour, int minute) {

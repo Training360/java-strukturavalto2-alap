@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class AstroBoyTest {
+class AstroBoyTest {
 
     @Test
-    public void testMoveTo() {
+    void testMoveTo() {
         //Given
         Point initialPoint = new Point(0, 0, 0);
         AstroBoy astroBoy = new AstroBoy(initialPoint);
@@ -23,7 +23,7 @@ public class AstroBoyTest {
     }
 
     @Test
-    public void testFastMoveTo() {
+    void testFastMoveTo() {
         //Given
         Point initialPoint = new Point(0, 0, 0);
         AstroBoy astroBoy = new AstroBoy(initialPoint);
@@ -50,7 +50,7 @@ public class AstroBoyTest {
     }
 
     @Test
-    public void testRotate() {
+    void testRotate() {
         //Given
         Point initialPoint = new Point(0, 0, 0);
         AstroBoy astroBoy = new AstroBoy(initialPoint);
@@ -62,7 +62,7 @@ public class AstroBoyTest {
     }
 
     @Test
-    public void testLiftTo() {
+    void testLiftTo() {
         //Given
         Point initialPoint = new Point(0, 0, 0);
         AstroBoy astroBoy = new AstroBoy(initialPoint);

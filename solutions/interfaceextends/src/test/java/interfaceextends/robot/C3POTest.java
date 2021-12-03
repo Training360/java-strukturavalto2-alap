@@ -4,10 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class C3POTest {
+class C3POTest {
 
     @Test
-    public void testMoveTo() {
+    void testMoveTo() {
         //Given
         Point initialPoint = new Point(0, 0, 0);
         C3PO c3PO = new C3PO(initialPoint);
@@ -22,7 +22,7 @@ public class C3POTest {
     }
 
     @Test
-    public void testFastMoveTo() {
+    void testFastMoveTo() {
         //Given
         Point initialPoint = new Point(0, 0, 0);
         C3PO c3PO = new C3PO(initialPoint);
@@ -37,7 +37,7 @@ public class C3POTest {
     }
 
     @Test
-    public void testRotate() {
+    void testRotate() {
         //Given
         Point initialPoint = new Point(0, 0, 0);
         C3PO c3PO = new C3PO(initialPoint);

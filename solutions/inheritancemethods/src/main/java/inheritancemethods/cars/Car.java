@@ -23,26 +23,26 @@ public class Car {
         return fuel;
     }
 
-    public void modifyFuelAmount(double fuel) {
-        this.fuel += fuel;
-    }
-
     public double getTankCapacity() {
         return tankCapacity;
     }
 
-    private boolean isEnoughFuel(int distance) {
-        return (fuel - distance * fuelRate / 100) >= 0.0;
+    public void modifyFuelAmount(double fuel) {
+        this.fuel += fuel;
     }
 
     public void drive(int km) {
         if (!isEnoughFuel(km)) {
-            throw new RuntimeException("Not enough fuel available!");
+            throw new IllegalArgumentException("Not enough fuel available!");
         }
         fuel -= km * fuelRate / 100;
     }
 
     public double calculateRefillAmount() {
         return tankCapacity - fuel;
+    }
+
+    private boolean isEnoughFuel(int distance) {
+        return (fuel - distance * fuelRate / 100) >= 0.0;
     }
 }

@@ -16,7 +16,7 @@ public class AnswerStat {
                 numberOfTrue++;
             }
         }
-        return (int)Math.round((double)numberOfTrue / booleans.length * 100);
+        return (int) Math.round((double) numberOfTrue / booleans.length * 100);
     }
 
     public boolean[] convert(String checkboxes) {
@@ -26,5 +26,4 @@ public class AnswerStat {
             throw new InvalidBinaryStringException(ex);
         }
     }
-
 }

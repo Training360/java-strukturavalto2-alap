@@ -7,19 +7,18 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
-public class ZooTest {
+class ZooTest {
 
     @Test
-    public void getNumberOfLegsWithEmptyList() {
+    void testGetNumberOfLegsWithEmptyList() {
         List<Animal> animals = new ArrayList<>();
         Zoo zoo = new Zoo(animals);
 
-        assertEquals(0, zoo.getNumberOfLegs());
+        assertEquals(0, zoo.getNumberOfAllLegs());
     }
 
     @Test
-    public void getNumberOfLegsWithAList() {
+    void testGetNumberOfLegs() {
         List<Animal> animals = new ArrayList<>();
         animals.add(new Duck());
         animals.add(new Worm());
@@ -27,11 +26,11 @@ public class ZooTest {
         animals.add(new Lion());
         Zoo zoo = new Zoo(animals);
 
-        assertEquals(8, zoo.getNumberOfLegs());
+        assertEquals(8, zoo.getNumberOfAllLegs());
     }
 
     @Test
-    public void getNumberOfAnimals() {
+    void testGetNumberOfAnimals() {
         List<Animal> animals = new ArrayList<>();
         animals.add(new Duck());
         animals.add(new Worm());

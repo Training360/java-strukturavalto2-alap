@@ -1,0 +1,4 @@
+kenyér;400;1
+tej;300;2
+tejföl;180;2
+fogkefe;200;5

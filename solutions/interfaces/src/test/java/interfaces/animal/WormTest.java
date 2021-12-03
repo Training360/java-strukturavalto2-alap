@@ -4,19 +4,19 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class WormTest {
+class WormTest {
+
     @Test
-    public void getNumberofLegs() {
+    void testGetNumberofLegs() {
         Worm worm = new Worm();
 
         assertEquals(0, worm.getNumberOfLegs());
     }
 
     @Test
-    public void getName() {
+    void testGetName() {
         Worm worm = new Worm();
 
         assertEquals("Worm", worm.getName());
     }
-
 }

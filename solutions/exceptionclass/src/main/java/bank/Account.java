@@ -10,36 +10,36 @@ public class Account {
 
     public Account(String accountNumber, double balance) {
         if (accountNumber == null) {
-            throw new IllegalArgumentException("accountNumber");
+            throw new IllegalArgumentException("Account number should not be null!");
         }
         this.accountNumber = accountNumber;
         this.balance = balance;
         this.maxSubtract = INITIAL_MAX_SUBTRACT;
     }
 
-    public void setMaxSubtract(double maxSubtract) throws InvalidBankOperationException {
+    public void setMaxSubtract(double maxSubtract) {
         if (maxSubtract <= 0) {
-            throw new InvalidBankOperationException(ErrorCode.INVALID_AMOUNT);
+            throw new InvalidAmountBankOperationException("Invalid amount!");
         }
         this.maxSubtract = maxSubtract;
     }
 
-    public double subtract(double amount) throws InvalidBankOperationException {
+    public double subtract(double amount) {
         if (amount > this.maxSubtract || amount <= 0) {
-            throw new InvalidBankOperationException(ErrorCode.INVALID_AMOUNT);
+            throw new InvalidAmountBankOperationException("Invalid amount!");
         }
         double balanceAfter = this.balance - amount;
         if (balanceAfter < 0) {
-            throw new InvalidBankOperationException(ErrorCode.LOW_BALANCE);
+            throw new LowBalanceBankOperationException("Low balance!");
         }
 
         this.balance = balanceAfter;
         return this.balance;
     }
 
-    public double deposit(double amount) throws InvalidBankOperationException {
+    public double deposit(double amount) {
         if (amount <= 0) {
-            throw new InvalidBankOperationException(ErrorCode.INVALID_AMOUNT);
+            throw new InvalidAmountBankOperationException("Invalid amount!");
         }
         this.balance += amount;
         return this.balance;

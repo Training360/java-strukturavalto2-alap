@@ -4,42 +4,41 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Fleet {
-	List<Ship> ships = new ArrayList<>();
 
-	private int waitingPersons;
+    private List<Ship> ships = new ArrayList<>();
 
-	private int waitingCargo;
+    private int waitingPeople;
 
-	public void addShip(Ship newShip) {
-		ships.add(newShip);
-	}
+    private int waitingCargo;
 
-	public void loadShip(int numberOfPersons, int cargoWeight) {
-			int remainingPersons = numberOfPersons;
-			int remainingCargo = cargoWeight;
+    public void addShip(Ship newShip) {
+        ships.add(newShip);
+    }
 
-			for (Ship ship: ships) {
-				if (ship instanceof CanCarryPassengers) {
-					if(remainingPersons != 0) {
-						remainingPersons = ((CanCarryPassengers) ship).loadPassenger(remainingPersons);
-					}
-				}
-				if (ship instanceof CanCarryGoods) {
-					if (remainingCargo != 0) {
-						remainingCargo = ((CanCarryGoods) ship).loadCargo(remainingCargo);
-					}
-				}
-			}
+    public void loadShip(int passengers, int cargoWeight) {
+        int remainingPersons = passengers;
+        int remainingCargo = cargoWeight;
+        for (Ship ship : ships) {
+            if (ship instanceof CanCarryPassengers) {
+                if (remainingPersons != 0) {
+                    remainingPersons = ((CanCarryPassengers) ship).loadPassenger(remainingPersons);
+                }
+            }
+            if (ship instanceof CanCarryGoods) {
+                if (remainingCargo != 0) {
+                    remainingCargo = ((CanCarryGoods) ship).loadCargo(remainingCargo);
+                }
+            }
+        }
+        waitingPeople = remainingPersons;
+        waitingCargo = remainingCargo;
+    }
 
-			waitingPersons = remainingPersons;
-			waitingCargo = remainingCargo;
-	}
+    public int getWaitingPeople() {
+        return waitingPeople;
+    }
 
-	public int getWaitingPersons() {
-		return waitingPersons;
-	}
-
-	public int getWaitingCargo() {
-		return waitingCargo;
-	}
+    public int getWaitingCargo() {
+        return waitingCargo;
+    }
 }

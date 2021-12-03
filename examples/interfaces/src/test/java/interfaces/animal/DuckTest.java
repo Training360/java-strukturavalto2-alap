@@ -4,19 +4,19 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class DuckTest {
+class DuckTest {
+
     @Test
-    public void getNumberofLegs() throws Exception {
+    void testGetNumberofLegs() {
         Duck duck = new Duck();
 
         assertEquals(2, duck.getNumberOfLegs());
     }
 
     @Test
-    public void getName() throws Exception {
+    void testGetName() {
         Duck duck = new Duck();
 
         assertEquals("Duck", duck.getName());
     }
-
 }

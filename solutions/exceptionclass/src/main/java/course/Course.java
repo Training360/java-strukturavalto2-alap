@@ -7,9 +7,9 @@ public class Course {
 
     public Course(String name, SimpleTime begin) {
         if (name == null)
-            throw new IllegalArgumentException("name");
+            throw new IllegalArgumentException("Name is null!");
         if (begin == null)
-            throw new IllegalArgumentException("begin");
+            throw new IllegalArgumentException("Begin is null!");
 
         this.name = name;
         this.begin = begin;

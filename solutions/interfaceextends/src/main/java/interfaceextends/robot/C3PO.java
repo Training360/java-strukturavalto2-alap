@@ -3,18 +3,13 @@ package interfaceextends.robot;
 import java.util.ArrayList;
 import java.util.List;
 
-public class C3PO implements MovableRobot{
+public class C3PO implements MovableRobot {
 
 	private Point position;
 	private int angle;
 	private List<Point> path = new ArrayList<>();
 
 	public C3PO(Point position) {
-		this.position = position;
-	}
-
-	private void walkTo(Point position) {
-		path.add(position);
 		this.position = position;
 	}
 
@@ -44,5 +39,10 @@ public class C3PO implements MovableRobot{
 
 	public int getAngle() {
 		return angle;
+	}
+
+	private void walkTo(Point position) {
+		path.add(position);
+		this.position = position;
 	}
 }

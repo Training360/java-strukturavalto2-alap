@@ -1,30 +1,28 @@
 package isahasa.fleet;
 
 public class CanCarryGoodsBehaviour implements CanCarryGoods {
-	private int cargoWeight;
-	private final int maxCargoWeight;
 
-	public CanCarryGoodsBehaviour(int maxCargoWeight) {
-		this.maxCargoWeight = maxCargoWeight;
-	}
+    private int cargoWeight;
+    private final int maxCargoWeight;
 
-	@Override
-	public int loadCargo(int cargoWeight){
-		int remainder = 0;
+    public CanCarryGoodsBehaviour(int maxCargoWeight) {
+        this.maxCargoWeight = maxCargoWeight;
+    }
 
-		if (cargoWeight <= maxCargoWeight) {
-			this.cargoWeight = cargoWeight;
-		} else
-		{
-			remainder = cargoWeight - maxCargoWeight;
-			this.cargoWeight = maxCargoWeight;
-		}
+    @Override
+    public int loadCargo(int cargoWeight) {
+        int remainder = 0;
+        if (cargoWeight <= maxCargoWeight) {
+            this.cargoWeight = cargoWeight;
+        } else {
+            remainder = cargoWeight - maxCargoWeight;
+            this.cargoWeight = maxCargoWeight;
+        }
+        return remainder;
+    }
 
-		return remainder;
-	}
-
-	@Override
-	public int getCargoWeight() {
-		return cargoWeight;
-	}
+    @Override
+    public int getCargoWeight() {
+        return cargoWeight;
+    }
 }

@@ -7,7 +7,7 @@ public class TransactionCounter {
     public int countEntryLessThan(List<Transaction> transactions, int maxAmount) {
         int count = 0;
         for (Transaction transaction : transactions) {
-            if (transaction.getAmount() < maxAmount) {
+            if (transaction.isCredit() && transaction.getAmount() < maxAmount) {
                 count++;
             }
         }

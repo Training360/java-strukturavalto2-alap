@@ -15,7 +15,8 @@ class TransactionCounterTest {
                 new Transaction("1234", TransactionType.CREDIT, 1000),
                 new Transaction("1234", TransactionType.CREDIT, 2000),
                 new Transaction("1234", TransactionType.CREDIT, 3000),
-                new Transaction("1234", TransactionType.CREDIT, 4000)
+                new Transaction("1234", TransactionType.CREDIT, 4000),
+                new Transaction("1234", TransactionType.DEBIT, 8000)
         );
 
         assertEquals(1, new TransactionCounter().countEntryLessThan(transactions, 2000));

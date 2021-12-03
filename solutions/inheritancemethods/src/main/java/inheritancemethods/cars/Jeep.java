@@ -14,14 +14,10 @@ public class Jeep extends Car {
         this.extraFuel = extraFuel;
     }
 
-    private boolean isEnoughFuelJeep(int distance) {
-        return ((super.getFuel() + extraFuel) - distance * super.getFuelRate() / 100) >= 0.0;
-    }
-
     @Override
     public void drive(int km) {
         if (!isEnoughFuelJeep(km)) {
-            throw new RuntimeException("Not enough fuel available!");
+            throw new IllegalArgumentException("Not enough fuel available!");
         }
         double usedFuel = km * super.getFuelRate() / 100;
         extraFuel -= usedFuel;
@@ -38,5 +34,9 @@ public class Jeep extends Car {
 
     public double getExtraFuel() {
         return extraFuel;
+    }
+
+    private boolean isEnoughFuelJeep(int distance) {
+        return ((super.getFuel() + extraFuel) - distance * super.getFuelRate() / 100) >= 0.0;
     }
 }

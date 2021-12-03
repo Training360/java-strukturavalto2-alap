@@ -14,11 +14,6 @@ public class AstroBoy implements FlyableRobot{
 		this.position = position;
 	}
 
-	public void walkTo(Point position) {
-		path.add(position);
-		this.position = position;
-	}
-
 	public void flyTo(Point position) {
 		path.add(position);
 		this.position = position;
@@ -64,5 +59,10 @@ public class AstroBoy implements FlyableRobot{
 
 	public long getAltitude() {
 		return position.getZ();
+	}
+
+	private void walkTo(Point position) {
+		path.add(position);
+		this.position = position;
 	}
 }

@@ -12,7 +12,7 @@ public class BankTransaction {
     private long transactionValue;
 
     public BankTransaction(long transactionValue) {
-        if (transactionValue <= MIN_TRANSACTION_VALUE && transactionValue >= MAX_TRANSACTION_VALUE) {
+        if (transactionValue < MIN_TRANSACTION_VALUE || transactionValue > MAX_TRANSACTION_VALUE) {
             throw new IllegalArgumentException("This transaction cannot be accepted! " + transactionValue);
         }
         countOfTransactions++;

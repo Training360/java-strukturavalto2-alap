@@ -1,14 +1,13 @@
 package isahasa.fleet;
 
-
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class LinerTest {
+class LinerTest {
 
     @Test
-    public void load() {
+    void testLoad() {
         Liner liner = new Liner(100);
 
         assertEquals(0, liner.loadPassenger(56));
@@ -16,7 +15,7 @@ public class LinerTest {
     }
 
     @Test
-    public void loadToMuch() {
+    void testLoadTooMuch() {
         Liner liner = new Liner(100);
 
         assertEquals(11, liner.loadPassenger(111));

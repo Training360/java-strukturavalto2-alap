@@ -4,9 +4,10 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class PointTest {
+class PointTest {
+
     @Test
-    public void testCreatePoint() {
+    void testCreatePoint() {
         //Given
         Point point = new Point(2, 3, 4);
         //Then

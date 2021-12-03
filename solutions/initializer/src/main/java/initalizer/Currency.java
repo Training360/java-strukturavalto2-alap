@@ -2,5 +2,5 @@ package initalizer;
 
 public enum Currency {
 
-    HUF, EUR, SFR, GBP, USD;
+    HUF, EUR, CHF, GBP, USD;
 }
