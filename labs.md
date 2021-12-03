@@ -252,3 +252,16 @@ Készíts egy `day01.NumberSequence` osztályt, aminek van egy egész számokbó
 ### Day02
 Készíts egy `day02.Recipe` osztályt, melynek van egy neve, egy hozzávalók listája és egy leírása (minden `String` típusú). Receptet létre lehet hozni csak a neve alapján, vagy név és leírás alapján. <br>
 Legyen egy `addIngredient()` metódus, amivel LEGALÁBB egy hozzávalót hozzá lehet adni a listához. (Egyet kötelező!)
+
+### Day04
+Az alábbi fájl beolvasása után készíts egy metódust, amely visszaadja, hogy melyik nap volt a legkisebb különbség a napi minimum és maximum hőmérsékletek között! (A feladat megoldásához további segítség a videóban.)
+
+[weather.dat](https://github.com/Training360/java-strukturavalto2-alap/blob/main/consultations/src/main/resources/datamunging/weather.dat)
+
+Házi feladat:
+Az alábbi fájl beolvasása után készíts egy metódust A LEHETŐ LEGGYORSABBAN, amely visszaadja, hogy melyik focicsapatnál van a legkisebb különbség a rúgott és a kapott gólok száma között:
+
+[football.dat](https://github.com/Training360/java-strukturavalto2-alap/blob/main/consultations/src/main/resources/datamunging/football.dat)
+
+### Day05
+Refaktoráld a tegnap, házi feladatként megírt kódodat! (További segítség a videóban.)
