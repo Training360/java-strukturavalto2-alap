@@ -264,4 +264,4 @@ Az alábbi fájl beolvasása után készíts egy metódust A LEHETŐ LEGGYORSABB
 [football.dat](https://github.com/Training360/java-strukturavalto2-alap/blob/main/consultations/src/main/resources/datamunging/football.dat)
 
 ### Day05
-Refaktoráld a tegnap, házi feladatként megírt kódodat! (További segítség a videóban.)
+Úgy refactoráld (módosítsd a funkcionalitás változtatása nélkül) a tegnap, házi feladatként megírt kódodat, hogy a lehető legkevesebb kódismétlés legyen benne. Ne feledd, hogy csak úgy tudod biztosítani, hogy az eredmény nem változik, hogy előtte teszteket írsz! (További segítség a videóban.)
