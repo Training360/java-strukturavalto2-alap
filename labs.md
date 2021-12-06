@@ -273,7 +273,7 @@ A megoldásokat a `java-sv2-daily-labs09` repositoryban, a `week09-lab-tasks` pr
 Az alábbi feladatban egy koncertre való beléptetést fogunk megvalósítani. Adott a `day01.Ticket` osztály. Minden jegyen rajta van, a zenekar neve, a pontos dátum és időpont, és az ár.
 Ezeket konstruktorban állítsuk be. Legyen továbbá egy `entryTime()` metódus, ami megmondja, hogy mikor léphetünk be a rendezvényre (csak az időpontot, dátumot már nem). Ez itt legyen egy órával a kezdés előtt. <br>
 
-Legyen egy `day01.FrontOfStageTicket` osztályunk, ami a legjobb helyekre szól. Ennek az osztálynak további attribútuma egy extra kód, amivel később olcsóbban tudunk vásárolni. Ezt is konstruktorban állítsuk be. Ilyen típusú jeggyel a koncertkezdés előtt 2 órával tudunk bemenni.<br>
+Legyen egy `day01.FrontOfStageTicket` osztályunk, ami a legjobb helyekre szól és a `Ticket` leszármazottja. Ennek az osztálynak további attribútuma egy extra kód, amivel később olcsóbban tudunk vásárolni. Ezt is konstruktorban állítsuk be. Ilyen típusú jeggyel a koncertkezdés előtt 2 órával tudunk bemenni.<br>
 
 Legyen egy `Person` osztályunk, akinek csupán egy jegy attribútuma van és ezt konstruktorban állítjuk be.<br>
 
