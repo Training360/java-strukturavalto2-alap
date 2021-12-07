@@ -181,3 +181,11 @@ A kiadott feladat megoldása. A rekurzióról és az Attribútumok és metóduso
 ## 2021.12.02.
 
 A kiadott feladat megoldása, majd házi feladat kiadása, mert a holnapi konzultáció a maival össze fog függni.
+
+## 2021.12.03.
+
+A tegnapi feladat folytatása, először önálló munka, majd közös megoldás.
+
+## 2021.12.06.
+
+A kiadott feladat megoldása. Az öröklődésről részletesebben, hangsúlyozva, hogy a metódusok öröklődnek, a konstruktorok pedig nem.
