@@ -189,3 +189,7 @@ A tegnapi feladat folytatása, először önálló munka, majd közös megoldás
 ## 2021.12.06.
 
 A kiadott feladat megoldása. Az öröklődésről részletesebben, hangsúlyozva, hogy a metódusok öröklődnek, a konstruktorok pedig nem.
+
+## 2021.12.07.
+
+A kiadott feladat megoldása, majd az Absztrakt osztályok című lecke Játéklogika című feladatának közös megoldása.
