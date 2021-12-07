@@ -1,0 +1,1 @@
+Ide fognak jönni a 2. részvizsga gyakorlati feladatai.
