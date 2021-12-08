@@ -193,3 +193,7 @@ A kiadott feladat megoldása. Az öröklődésről részletesebben, hangsúlyozv
 ## 2021.12.07.
 
 A kiadott feladat megoldása, majd az Absztrakt osztályok című lecke Játéklogika című feladatának közös megoldása.
+
+## 2021.12.08.
+
+A kiadott feladat megoldása majd technikai információk a jövő heti vizsgáról.
