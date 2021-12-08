@@ -1,6 +1,6 @@
 package week9.day01;
 
-public class Person {
+public class Person{
 
     private Ticket ticket;
 

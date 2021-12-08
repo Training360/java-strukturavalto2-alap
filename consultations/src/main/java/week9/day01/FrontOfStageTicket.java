@@ -12,6 +12,9 @@ public class FrontOfStageTicket extends Ticket {
         this.extraCode = extraCode;
     }
 
+    private String saySometing(){
+        return "Im a fron ticket";
+    }
 
     @Override
     public LocalTime entryTime(){
@@ -24,6 +27,6 @@ public class FrontOfStageTicket extends Ticket {
 
     @Override
     public String toString(){
-        return "I'm a front ticket";
+        return saySometing();
     }
 }

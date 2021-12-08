@@ -18,14 +18,13 @@ public class Main {
 //        concert.addPerson(person, LocalTime.of(15,30));
 
 
-        Ticket frontTicket = new FrontOfStageTicket("Queen",LocalDateTime.now(),30000,"#23123");
-        System.out.println(frontTicket.entryTime());
+        Ticket frontTicket = new Ticket("Queen", LocalDateTime.now(), 30000);
+        System.out.println(frontTicket);
+
 
 
         //Csak olyan metódust hívhatok, ami a statikus típusban szerepel (bal oldal)
         //Ha a statikus és a dinamikur típusban is szerepel a metódus, akkor a dinamikus diktál (jobb oldal)
-
-
 
 
     }
