@@ -281,3 +281,13 @@ Illetve legyen még egy `Concert` osztály, ami már a rendezvényt reprezentál
 
 ### Day02
 Készíts a `day02` csomagban egy `StringLists` osztályt és benne egy `shortestWords(List<String> words)` metódust, mely paraméterül kap egy String listát és a legrövidebb szavakat vissza adja belőle egy Listában. PL :{"aaa", "aa", "bb", "cccc", "dd"} Itt a legrövidebb szavak az "aa", "bb", "dd".
+
+
+### Day03
+Készíts egy `day03.Encryption` nevű absztrakt osztályt. Legyen egy `encrypts(String input)` nevű metódusa, ami az inputot titkosítsja és visszatér a titkosított szöveggel. <br>
+
+Történet:  Caesar-kód vagy Caesar-rejtjel az egyik legegyszerűbb és legelterjedtebb titkosírási módszer. Ez egy helyettesítő rejtjel, ami azt jelenti, hogy minden egyes betűt az ábécében egy tőle meghatározott távolságra lévő betűvel kell helyettesíteni. Így például, ha mondjuk az eltolódás 3, az angol ábécében az A-t a D-vel, a B-t az E-vel stb. kell helyettesíteni.Az elnevezését Julius Caesar után kapta, aki ennek a segítségével kommunikált tábornokaival.<br>
+
+Készíts egy `Caesar` nevű osztályt ami az `Encryption`-ből származik. Egy attribútuma, az eltolás mértéke (offset), ami konstruktorban állítsunk be. Definiáljuk felül az `encrypts()` metódust, a történetnek megfelelően. 
+
+
