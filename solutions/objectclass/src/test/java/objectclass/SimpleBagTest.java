@@ -51,11 +51,13 @@ class SimpleBagTest {
         //Given
         SimpleBag bag = new SimpleBag();
         //When
-        bag.putItem(new Beer("Borsodi", 239));
-        bag.putItem(new Book("Rejtő Jenő", "Az elveszett cirkáló"));
+        Beer beer = new Beer("Borsodi", 239);
+        Book book = new Book("Rejtő Jenő", "Az elveszett cirkáló");
+        bag.putItem(beer);
+        bag.putItem(book);
         //Then
-        assertTrue(bag.contains(new Beer("Borsodi", 239)));
-        assertTrue(bag.contains(new Book("Rejtő Jenő", "Az elveszett cirkáló")));
+        assertTrue(bag.contains(beer));
+        assertTrue(bag.contains(book));
         assertFalse(bag.contains(new Book("Rejtő Jenő", "A megkerült cirkáló")));
     }
 }
