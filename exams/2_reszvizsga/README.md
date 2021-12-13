@@ -58,7 +58,7 @@ túl a város alapterületét!
 
 ### Város 2. rész (25 pont)
 A városban megvalósítandó további metódusok.
-* A `Building findHighestBuildingInCity()` megkeresi a legmagasabb épületet a városban (legtöbb szintű). 
+* A `Building findHighestBuilding()` megkeresi a legmagasabb épületet a városban (legtöbb szintű). 
   Ha több ilyen is van akkor az elsőt.
 
 * Szűrd le az egy utcába tartozó épületeket egy listába:  `findBuildingsByStreet(String street)`
