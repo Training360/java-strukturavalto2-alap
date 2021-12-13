@@ -197,3 +197,11 @@ A kiadott feladat megoldása, majd az Absztrakt osztályok című lecke Játékl
 ## 2021.12.08.
 
 A kiadott feladat megoldása majd technikai információk a jövő heti vizsgáról.
+
+## 2021.12.10.
+
+* Általános ismétlés az öröklődés és az absztrakt osztályok témaköréből.
+
+* A kiadott minta vizsga feladatsor Aquarium feladatának közös megoldása.
+
+* Ismétlőkérdések az öröklődés és az absztrakt osztályok témaköréből.
