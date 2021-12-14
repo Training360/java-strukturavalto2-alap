@@ -1,0 +1,1 @@
+Ide fognak kerülni a 2. részvizsga pótvizsga feladatai.
