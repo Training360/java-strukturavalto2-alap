@@ -12,7 +12,7 @@ public class DailyValues {
     }
 
     private void printArrayOfArrays(int[][] values) {
-        for (int i[] : values) {
+        for (int[] i : values) {
             for (int j : i) {
                 System.out.print(j);
                 System.out.print(" ");

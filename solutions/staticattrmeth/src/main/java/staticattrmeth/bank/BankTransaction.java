@@ -16,9 +16,13 @@ public class BankTransaction {
             throw new IllegalArgumentException("This transaction cannot be accepted! " + transactionValue);
         }
         countOfTransactions++;
-        sumOfTransactions += transactionValue;
-        if (transactionValue < currentMinValue) currentMinValue = transactionValue;
-        if (transactionValue > currentMaxValue) currentMaxValue = transactionValue;
+        BankTransaction.sumOfTransactions += transactionValue;
+        if (transactionValue < currentMinValue) {
+            BankTransaction.currentMinValue = transactionValue;
+        }
+        if (transactionValue > currentMaxValue) {
+            BankTransaction.currentMaxValue = transactionValue;
+        }
         this.transactionValue = transactionValue;
     }
 

@@ -3,9 +3,7 @@ package typeconversion;
 public class Conversion {
 
     public double convertDoubleToDouble(double number) {
-        int numberInt = (int) number;
-        double result = numberInt;
-        return result;
+        return  (int) number;
     }
 
     public byte[] convertIntArrayToByteArray(int[] numbers) {
@@ -23,7 +21,6 @@ public class Conversion {
     public int getFirstDecimal(double number) {
         int numberInt = (int) number;
         double difference = number - numberInt;
-        int firstDecimal = (int) (difference * 10);
-        return firstDecimal;
+        return  (int) (difference * 10);
     }
 }

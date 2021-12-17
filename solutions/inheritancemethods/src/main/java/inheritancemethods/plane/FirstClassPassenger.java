@@ -2,7 +2,7 @@ package inheritancemethods.plane;
 
 public class FirstClassPassenger extends PriorityPassenger {
 
-    private final int extraCharge = 20000;
+    private static final int extraCharge = 20000;
 
     public FirstClassPassenger(String name, int priceOfPlaneTicket, int percent) {
         super(name, priceOfPlaneTicket, percent);
@@ -14,6 +14,6 @@ public class FirstClassPassenger extends PriorityPassenger {
 
     @Override
     public int getPriceOfPlaneTicket() {
-        return (int) (super.getPriceOfPlaneTicket() + extraCharge);
+        return super.getPriceOfPlaneTicket() + extraCharge;
     }
 }

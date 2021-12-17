@@ -31,7 +31,6 @@ public class BillItem {
     }
 
     public double calculateTotalPrice() {
-        double totalPrice = price * quantity * (1 + vatPercent / 100);
-        return totalPrice;
+        return price * quantity * (1 + vatPercent / 100);
     }
 }

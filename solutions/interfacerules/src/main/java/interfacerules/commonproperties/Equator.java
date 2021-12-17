@@ -2,8 +2,8 @@ package interfacerules.commonproperties;
 
 public class Equator implements Name, Length {
 
-    private final static String NAME = "Equator";
-    private final static double LENGTH = 40_075.0;
+    private static final String NAME = "Equator";
+    private static final double LENGTH = 40_075.0;
 
     @Override
     public String getName() {

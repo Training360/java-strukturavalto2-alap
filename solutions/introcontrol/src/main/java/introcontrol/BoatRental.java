@@ -5,10 +5,6 @@ import java.util.Scanner;
 public class BoatRental {
 
     public static void main(String[] args) {
-        int boat1Capacity = 5;
-        int boat2Capacity = 3;
-        int boat3Capacity = 2;
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("Hány fős csoport érkezett?");
         int numberOfPeople = scanner.nextInt();
