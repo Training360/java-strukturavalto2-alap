@@ -291,3 +291,21 @@ Történet:  Caesar-kód vagy Caesar-rejtjel az egyik legegyszerűbb és legelte
 Készíts egy `Caesar` nevű osztályt ami az `Encryption`-ből származik. Egy attribútuma, az eltolás mértéke (offset), ami konstruktorban állítsunk be. Definiáljuk felül az `encrypts()` metódust, a történetnek megfelelően. 
 
 
+
+## Week11
+
+A megoldásokat a `java-sv2-daily-labs11` repositoryban, a `week11-lab-tasks` projektben valósítsd meg.
+
+###Day01
+A `day01` comagba dolgozz.<br>
+
+Készíts egy `User` nevű interface-t. Absztrakt metódusai egy `String getUserEmail()`, egy `String getPassword()`.<br>
+
+Valósítsuk meg a `NormalUser` osztályt, aminek adattagjai egy e-mail és egy jelszó és implementálja a `User` interface-t.<br>
+
+Készítsünk egy `AdminUser` osztályt, aminek adattagjai egy e-mail és egy jelszó, de amikor a jelszavat lekérjük, akkor ne az eredeti jelszót adjuk vissza hanem annyi csillag karaktert amilyen hosszú a jelszó.<br>
+
+Készíts teszteket!
+
+
+ 
