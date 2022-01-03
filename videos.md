@@ -207,3 +207,7 @@ A kiadott feladat megoldása majd technikai információk a jövő heti vizsgár
 ## 2021.12.14.
 
 A tegnapi vizsga feladatsorának közös megoldása.
+
+## 2022.01.03.
+
+A kiadott feladat megoldása, majd az interfészekről röviden.
