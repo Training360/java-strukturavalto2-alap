@@ -296,7 +296,7 @@ Készíts egy `Caesar` nevű osztályt ami az `Encryption`-ből származik. Egy 
 
 A megoldásokat a `java-sv2-daily-labs11` repositoryban, a `week11-lab-tasks` projektben valósítsd meg.
 
-###Day01
+### Day01
 A `day01` comagba dolgozz.<br>
 
 Készíts egy `User` nevű interface-t. Absztrakt metódusai egy `String getUserEmail()`, egy `String getPassword()`.<br>
