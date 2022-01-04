@@ -307,5 +307,11 @@ Készítsünk egy `AdminUser` osztályt, aminek adattagjai egy e-mail és egy je
 
 Készíts teszteket!
 
+### Day02
+
+A `day02` csomagban dolgozz!<br>
+
+Túrázás közben egy GPS eszköz rögzíti a pontokat. Eltárolja a GPS koordinátákat, valamint a magasságot (mindegyik lebegőpontos érték). Írj a `Hiking` osztályba egy `getPlusElevation()` metódust, mely megkapja a magasságok listáját, és visszaadja a emelkedések összegét. Azaz pl. 10,20,15,18 esetén 13, ugyanis (20 - 10) + (18 - 15). A 20 méterről 15 méterre ereszkedést nem számolja bele, hiszen az ereszkedés, és nem emelkedés.
+
 
  
