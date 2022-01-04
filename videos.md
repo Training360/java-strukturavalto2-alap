@@ -211,3 +211,7 @@ A tegnapi vizsga feladatsorának közös megoldása.
 ## 2022.01.03.
 
 A kiadott feladat megoldása, majd az interfészekről röviden.
+
+## 2022.01.04.
+
+A kiadott feladat megoldása. További tudnivalók az interfészekről. Az anonymous belső osztályokról röviden.
