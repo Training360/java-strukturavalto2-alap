@@ -215,3 +215,7 @@ A kiadott feladat megoldása, majd az interfészekről röviden.
 ## 2022.01.04.
 
 A kiadott feladat megoldása. További tudnivalók az interfészekről. Az anonymous belső osztályokról röviden.
+
+## 2022.01.05.
+
+Átfogó ismétlés az interfészek, polimorfizmus, dinamikus kötés, is-a és has-a kapcsolatok témaköréből.
