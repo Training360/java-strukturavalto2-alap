@@ -219,3 +219,7 @@ A kiadott feladat megoldása. További tudnivalók az interfészekről. Az anony
 ## 2022.01.05.
 
 Átfogó ismétlés az interfészek, polimorfizmus, dinamikus kötés, is-a és has-a kapcsolatok témaköréből.
+
+## 2022.01.06.
+
+Csoportmunka eredményének bemutatása.
