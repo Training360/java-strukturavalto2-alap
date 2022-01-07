@@ -314,17 +314,14 @@ A `day02` csomagban dolgozz!<br>
 Túrázás közben egy GPS eszköz rögzíti a pontokat. Eltárolja a GPS koordinátákat, valamint a magasságot (mindegyik lebegőpontos érték). Írj a `Hiking` osztályba egy `getPlusElevation()` metódust, mely megkapja a magasságok listáját, és visszaadja a emelkedések összegét. Azaz pl. 10,20,15,18 esetén 13, ugyanis (20 - 10) + (18 - 15). A 20 méterről 15 méterre ereszkedést nem számolja bele, hiszen az ereszkedés, és nem emelkedés.
 
 
-### Day03
+### Day04
 A feladatban egy Webshop működését kell szimulálni. Az oldalon lehet vásárolni termékeket illetve szolgáltatásokat. Közös bennük, hogy van egy nevük,egy áruk és egy lejárati idejük. A lejárati idő a szolgáltatásnál a vásárlás időpontja plusz egy év. A termékeknél a lejárati idő a garanciát jelenti ez fixen 3 hónap a vásárlástól számítva, de majd később a vásárló dönthet úgy, hogy vásárol hozzá kiterjesztett garanciát. (Használd a LocalDate metódusait)<br>
 
 A weboldalon vannak felhasználók. A felhasználóknak van egy felhasználóneve illetve egy vásárolt elemek listája és pénze.
 A vásárló vásárlással tud elemet hozzáadni a listájához, de csak akkor ha van elég pénze a termék megvásárlásra.<br>
 
-A weboldalnak két listája legyen az árusított elemek és a felhasználók listája. Legyen egy vásárlás lehetőség ami felhasználó név alapján megkeresi a felhasználót, terméknév alapján a terméket, majd a felhasználó megvásárolja a terméket. (Annak egy másolatát beállítva a lejárati idejét). Ha terméket vásárol, akkor vesz kiterjesztett garanciát, ha legalább háromszoros pénze van mint a termék ára. Ekkor a termék ára megnő az ár 10%-val és a garancia 3 éves lesz.  Arra figyeljünk, hogyha a webshop-ban kérdezem le egy termék lejárati idejét, akkor a mai naptól számoljuk ki, de ha felhasználó megvásárolt termékei között, akkor a lejárati idő a vásárlás időpontjához képest legyen már beállítva.  
+A weboldalnak két listája legyen az árusított elemek és a felhasználók listája. Legyen egy vásárlás lehetőség ami felhasználó név alapján megkeresi a felhasználót, terméknév alapján a terméket, majd a felhasználó megvásárolja a terméket. (Annak egy másolatát beállítva a lejárati idejét). Ha terméket vásárol, akkor vesz kiterjesztett garanciát, ha legalább háromszoros pénze van mint a termék ára. Ekkor a termék ára megnő az ár 10%-val és a garancia 3 éves lesz.  Arra figyeljünk, hogyha a webshop-ban kérdezem le egy termék lejárati idejét, akkor a mai naptól számoljuk ki, de ha felhasználó megvásárolt termékei között, akkor a lejárati idő a vásárlás időpontjához képest legyen már beállítva.
 
 
-
-     
-
-
- 
+### Day05
+Készíts a `day05` csomagban egy `Lottery` osztályt, melynek két attribútuma az, hogy hány számból kell húzni és mennyit húznak. Legyen egy startLottery() metódusa, ami visszaad egy listát amiben annyi véletlen szám van amennyit húzni kell a határnak megfelelően. A sorrendre nem kell figyelni, a lényeg, hogy a számok különbözők legyenek!
