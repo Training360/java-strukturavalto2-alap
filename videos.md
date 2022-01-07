@@ -223,3 +223,7 @@ A kiadott feladat megoldása. További tudnivalók az interfészekről. Az anony
 ## 2022.01.06.
 
 Csoportmunka eredményének bemutatása.
+
+## 2022.01.07.
+
+Közös interaktív gyakorló kvíz. A kiadott feladat megoldása. Az `instanceof` operátor használatáról bővebben.
