@@ -9,5 +9,6 @@ public class SocialMedia {
     public static void main(String[] args) {
         User user = new NormalUser("asdd@gmail.com","1234");
 
+        System.out.println(user.getEmail());
     }
 }

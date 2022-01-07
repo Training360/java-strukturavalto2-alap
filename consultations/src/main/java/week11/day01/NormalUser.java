@@ -1,6 +1,5 @@
 package week11.day01;
 
-import java.io.Serializable;
 
 public class NormalUser implements User{
 
@@ -21,6 +20,5 @@ public class NormalUser implements User{
     public String getPassword() {
         return password;
     }
-
 
 }
