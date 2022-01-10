@@ -227,3 +227,7 @@ Csoportmunka eredményének bemutatása.
 ## 2022.01.07.
 
 Közös interaktív gyakorló kvíz. A kiadott feladat megoldása. Az `instanceof` operátor használatáról bővebben.
+
+## 2022.01.10.
+
+A kiadott feladat megoldása. A try-with-resources szerkezetről és a `BufferedReader` használatáról röviden.
