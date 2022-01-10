@@ -325,3 +325,26 @@ A weboldalnak két listája legyen az árusított elemek és a felhasználók li
 
 ### Day05
 Készíts a `day05` csomagban egy `Lottery` osztályt, melynek két attribútuma az, hogy hány számból kell húzni és mennyit húznak. Legyen egy startLottery() metódusa, ami visszaad egy listát amiben annyi véletlen szám van amennyit húzni kell a határnak megfelelően. A sorrendre nem kell figyelni, a lényeg, hogy a számok különbözők legyenek!
+
+## WEEK12
+A megoldásokat a `java-sv2-daily-labs12` repositoryban, a `week12-lab-tasks` projektben valósítsd meg.
+
+### Day01
+A `day01` csomagba dolgozz.<br> 
+
+Adott a `running.csv` állomány, amiben két oszlop található fejléccel. Az első oszlopban az, hogy mennyit futott az illető a másodikban pedig egy dátum, hogy mikor. Figyelj, hogy az adatok tartalmazzák a mértékegységet (de ez mindenhol egységes).
+
+Készíts egy metódust, ami paraméterül kap egy évet és egy hónapot és összesíti az abban a hónapban a futásteljesítményt. Mintafájl:<br>
+
+```
+Kilometers;Date
+7.1 km;2021-11-28
+13.5 km;2021-12-01
+14.5 km;2021-12-03
+13.2 km;2021-12-17
+7.2 km;2022-01-02
+8.9 km;2022-01-06
+9.8 km;2022-01-08
+```
+
+ 
