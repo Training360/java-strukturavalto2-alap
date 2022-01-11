@@ -21,4 +21,5 @@ public class NormalUser implements User{
         return password;
     }
 
+
 }
