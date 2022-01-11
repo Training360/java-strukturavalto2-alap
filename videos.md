@@ -231,3 +231,7 @@ Közös interaktív gyakorló kvíz. A kiadott feladat megoldása. Az `instanceo
 ## 2022.01.10.
 
 A kiadott feladat megoldása. A try-with-resources szerkezetről és a `BufferedReader` használatáról röviden.
+
+## 2022.01.11.
+
+A kiadott feladat megoldása. A generikusokról. Saját generikus osztály létrehozása. ArrayList kontra LinkedList.
