@@ -2,6 +2,11 @@
 
 Ezen a héten a kollekciókkal fogtok részletesebben megismerkedni.
 
+## Belső osztályok
+
+* [ ] [Belső osztályok videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/29778400-belso-osztalyok)
+* [ ] Belső osztályok gyakorlati feladat
+
 ## Generikusok
 
 * [ ] [Generikusok használata, diamond operátor videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/10769614-generikusok-hasznalata-diamond-operator)
@@ -21,11 +26,6 @@ Ezen a héten a kollekciókkal fogtok részletesebben megismerkedni.
 * [ ] Map gyakorlati feladat
 * [ ] [Autoboxing használata kollekcióknál videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/10769619-autoboxing-hasznalata-kollekcioknal)
 * [ ] Autoboxing használata kollekcióknál gyakorlati feladat
-
-## Belső osztályok
-
-* [ ] [Belső osztályok videó](https://e-learning.training360.com/courses/take/java-se-halado-koll/lessons/29778400-belso-osztalyok)
-* [ ] Belső osztályok gyakorlati feladat
 
 ## Műveletek kollekciókkal
 
