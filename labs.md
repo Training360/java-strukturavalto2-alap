@@ -347,4 +347,6 @@ Kilometers;Date
 9.8 km;2022-01-08
 ```
 
- 
+### Day02
+
+A `day02.MathAlgorithms` osztályban készíts egy metódust ami meghatározza és visszaadja paraméterül kapott két egész szám legnagyobb közös osztóját! 
