@@ -239,3 +239,7 @@ A kiadott feladat megoldása. A generikusokról. Saját generikus osztály létr
 ## 2022.01.12.
 
 Átfogó ismétlés a kivételkezelés témaköréből. Közös feladatmegoldás. Ismétlőkérdések.
+
+## 2022.01.13.
+
+A kiadott feladat megoldása. Az equals() és a hashCode() metódusokról. A hash-elésről.  A bitcoin és a blockchain technológia elméletéről és hasznáról röviden.
