@@ -235,3 +235,7 @@ A kiadott feladat megoldása. A try-with-resources szerkezetről és a `Buffered
 ## 2022.01.11.
 
 A kiadott feladat megoldása. A generikusokról. Saját generikus osztály létrehozása. ArrayList kontra LinkedList.
+
+## 2022.01.12.
+
+Átfogó ismétlés a kivételkezelés témaköréből. Közös feladatmegoldás. Ismétlőkérdések.
