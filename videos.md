@@ -243,3 +243,7 @@ A kiadott feladat megoldása. A generikusokról. Saját generikus osztály létr
 ## 2022.01.13.
 
 A kiadott feladat megoldása. Az equals() és a hashCode() metódusokról. A hash-elésről.  A bitcoin és a blockchain technológia elméletéről és hasznáról röviden.
+
+## 2022.01.14.
+
+A kiadott feladat megoldása. A hashcode-ról. A `Map` fajtáiról.
