@@ -369,3 +369,6 @@ matematika
 ```   
 A fájl tantárgyfelosztást tartalmaz. A tanttárgyfelosztást 4-es blokkokban adjuk meg. Első sor a tanár neve, majd a tantárgy, majd az osztály ahol tanítja és végül az, hogy heti hány órában. Írj egy metódust,ami paraméterül várja egy tanár nevét, és kiírja, hogy hány órája van egy héten. A fájl megtalálható a consultations/src/main/resources/beosztas.txt <br>
 Bármilyen eddig tanult eszközzel megvalósíthatod a feladatot!
+
+### Day05
+Készíts egy `StringStatistics` nevű osztályt és benne, egy metódust aminek bementi paramétere egy szöveg és visszatérési értéke egy adatszerkezet, amiből kiolvasható, hogy melyik karakterből hány darab szerepel benne!
