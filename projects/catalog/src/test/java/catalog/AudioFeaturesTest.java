@@ -55,7 +55,7 @@ public class AudioFeaturesTest {
     @Test
     public void noPerformer() {
         assertThrows(IllegalArgumentException.class, () -> {
-            new AudioFeatures("Ride the Lightning", -2, new ArrayList<>());
+            new AudioFeatures("Ride the Lightning", 300, new ArrayList<>());
         });
     }
 
