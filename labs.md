@@ -372,3 +372,13 @@ Bármilyen eddig tanult eszközzel megvalósíthatod a feladatot!
 
 ### Day05
 Készíts egy `StringStatistics` nevű osztályt és benne, egy metódust aminek bementi paramétere egy szöveg és visszatérési értéke egy adatszerkezet, amiből kiolvasható, hogy melyik karakterből hány darab szerepel benne!
+
+
+## WEEK12
+A megoldásokat a `java-sv2-daily-labs13` repositoryban, a `week13-lab-tasks` projektben valósítsd meg.
+
+## Day01
+
+Készíts egy `Student` nevű osztályt. Minden tanulónak van egy egyedi azonosítója és egy neve, ezeket konstruktorban állítjuk be. 
+Készíts egy `ClassNoteBook` nevű osztályt, amiben tanulókat tárolsz és a hozzájuk tartozó jegyek listáját, egy adatszerkezetben. Legyen egy `addStudent(Student student)` metódus ekkor, ha új tanulót adunk hozzá, naplóhoz az mindig legyen id szerint rendezett. 
+Legyen egy `addMark(int id, int mark)`, ami id alapján jegyet ad a tanulónak.  

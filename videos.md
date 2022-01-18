@@ -247,3 +247,7 @@ A kiadott feladat megoldása. Az equals() és a hashCode() metódusokról. A has
 ## 2022.01.14.
 
 A kiadott feladat megoldása. A hashcode-ról. A `Map` fajtáiról.
+
+## 2022.01.17.
+
+A kiadott feladat megoldása. A rendezésekről bővebben. Buborékos rendezés a gyakorlatban.
