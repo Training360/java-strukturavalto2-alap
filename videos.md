@@ -251,3 +251,7 @@ A kiadott feladat megoldása. A hashcode-ról. A `Map` fajtáiról.
 ## 2022.01.17.
 
 A kiadott feladat megoldása. A rendezésekről bővebben. Buborékos rendezés a gyakorlatban.
+
+## 2022.01.18.
+
+Csoportmunka feladat megoldásainak bemutatása.
