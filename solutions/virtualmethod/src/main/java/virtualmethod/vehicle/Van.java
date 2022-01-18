@@ -4,7 +4,7 @@ public class Van extends Car {
 
     private int cargoWeight;
 
-    public Van(int numberOfPassenger, int vehicleWeight, int cargoWeight) {
+    public Van(int vehicleWeight, int numberOfPassenger, int cargoWeight) {
         super(vehicleWeight, numberOfPassenger);
         this.cargoWeight = cargoWeight;
     }

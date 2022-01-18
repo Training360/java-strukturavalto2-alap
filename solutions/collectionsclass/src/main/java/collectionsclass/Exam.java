@@ -2,6 +2,7 @@ package collectionsclass;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 public class Exam {
@@ -21,7 +22,12 @@ public class Exam {
         if (places > ordered.size()) {
             places = ordered.size();
         }
-        Collections.sort(ordered);
+        Collections.sort(ordered, new Comparator<ExamResult>() {
+            @Override
+            public int compare(ExamResult result, ExamResult anotherResult) {
+                return Integer.valueOf(result.getPoints()).compareTo(anotherResult.getPoints());
+            }
+        });
         Collections.reverse(ordered);
         return getNames(ordered, places);
     }

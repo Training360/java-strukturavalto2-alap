@@ -62,9 +62,9 @@ class BookSearchTest {
         //When
         Book book = search.findBookByAuthorTitle("Fazekas Anna", "Mackó, mókus, malacka");
         //Then
-        assertEquals(1010, book.getId());
+        assertEquals(1037, book.getId());
         assertEquals("Fazekas Anna", book.getAuthor());
         assertEquals("Mackó, mókus, malacka", book.getTitle());
-        assertEquals("1010 Fazekas Anna Mackó, mókus, malacka", book.toString());
+        assertEquals("1037 Fazekas Anna Mackó, mókus, malacka", book.toString());
     }
 }

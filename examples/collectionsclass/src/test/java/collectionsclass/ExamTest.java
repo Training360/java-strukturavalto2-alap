@@ -19,7 +19,7 @@ class ExamTest {
         results.add(new ExamResult("Nagy Béla", 34));
         results.add(new ExamResult("Szép Virág", 78));
         results.add(new ExamResult("Szabó Gergely", 67));
-        results.add(new ExamResult("Fodor Károly", 76));
+        results.add(new ExamResult("Fodor Károly", 78));
         results.add(new ExamResult("Horvát Lajos", 59));
         results.add(new ExamResult("Kékes Kinga", 92));
         results.add(new ExamResult("Fehér Klára", 62));
@@ -32,6 +32,6 @@ class ExamTest {
 
         assertEquals(4, expected.size());
         assertEquals("Kékes Kinga", expected.get(0));
-        assertEquals("Fodor Károly", expected.get(2));
+        assertEquals("Szabó Gergely", expected.get(3));
     }
 }

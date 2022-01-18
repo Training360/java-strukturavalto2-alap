@@ -10,7 +10,7 @@ class FerryBoatTest {
     void testCanCarryTrue() {
         FerryBoat ferryBoat = new FerryBoat(2000);
         Car firstCar = new Car(1200, 0);
-        Car secondCar = new Van(1, 1200, 200);
+        Car secondCar = new Van(1200, 1, 200);
 
         assertTrue(ferryBoat.canCarry(firstCar));
         assertTrue(ferryBoat.canCarry(secondCar));
@@ -20,7 +20,7 @@ class FerryBoatTest {
     void testCanCarryFalse() {
         FerryBoat ferryBoat = new FerryBoat(2000);
         Car firstCar = new Car(2000, 0);
-        Car secondCar = new Van(1, 2000, 200);
+        Car secondCar = new Van(2000, 1, 200);
 
         assertFalse(ferryBoat.canCarry(firstCar));
         assertFalse(ferryBoat.canCarry(secondCar));
@@ -66,7 +66,7 @@ class FerryBoatTest {
     @Test
     void testToStringVan() {
         FerryBoat ferryBoat = new FerryBoat(2000);
-        Van van = new Van(1, 1200, 200);
+        Van van = new Van(1200, 1, 200);
         ferryBoat.load(van);
 
         assertEquals("FerryBoat{car=Van{cargoWeight=" + 200 + ", numberOfPassenger=" + 1 + ", vehicleWeight=" + 1200 + "}}", ferryBoat.toString());

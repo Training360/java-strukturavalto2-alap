@@ -2,7 +2,7 @@ package collectionsclass;
 
 import java.util.Objects;
 
-public class ExamResult implements Comparable<ExamResult> {
+public class ExamResult {
 
     private String nameOfPerson;
 
@@ -32,10 +32,5 @@ public class ExamResult implements Comparable<ExamResult> {
     @Override
     public int hashCode() {
         return Objects.hash(nameOfPerson, points);
-    }
-
-    @Override
-    public int compareTo(ExamResult other) {
-        return Integer.valueOf(points).compareTo(other.points);
     }
 }
