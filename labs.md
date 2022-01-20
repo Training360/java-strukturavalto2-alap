@@ -406,4 +406,4 @@ Bonusz: X az 0 pont, de a rossz válasz -2. \
 Fájl elérés: `consultations/src/main/resources/result.txt
 
 ### Day04
-Adott egy angol szöveg és a kérdés, hogy melyik magánhangzóból mennyi van a szövegben. 
+Írj egy metódust, ami paraméterül vár egy angol szöveget és visszaad egy Map-et. A mapben a kulcsok a magánhangzók, azérték pedig az, amennyi van a szövegben. Ha egy magánhangzó nincs a szövegben akkor az ne legyen része a mapnek.
