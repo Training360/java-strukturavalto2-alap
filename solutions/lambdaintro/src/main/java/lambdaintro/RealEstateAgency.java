@@ -11,13 +11,13 @@ public class RealEstateAgency {
         this.flats = flats;
     }
 
-    public Flat findFirstCheaperFlat(int minPrice) {
-        Flat result = findFirst(flat -> flat.getPrice() < minPrice);
+    public Flat findFirstCheaperFlat(int maxPrice) {
+        Flat result = findFirst(flat -> flat.getPrice() < maxPrice);
         return result;
     }
 
-    public Flat findFirstGreaterFlat(double maxArea) {
-        Flat result = findFirst(flat -> flat.getArea() > maxArea);
+    public Flat findFirstGreaterFlat(double minArea) {
+        Flat result = findFirst(flat -> flat.getArea() > minArea);
         return result;
     }
 
