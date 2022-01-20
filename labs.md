@@ -404,3 +404,6 @@ Feladatok:
 Bonusz: X az 0 pont, de a rossz válasz -2. \
 
 Fájl elérés: `consultations/src/main/resources/result.txt
+
+### Day04
+Egy repülőgéppel átszeljük az óceánt és a közben méréseket végzünk. Tudjuk, hogy partól indulunk és parthoz érünk. A méréseket adott időközönként egyenletesen végezzük. A mérések azt mutatják, hogy sziget vagy óceán fölött repülünk éppen. Az 1-es szigetet míg a 0 óceánt jelöl. pl.: 111000010100001 sorozatban egy három "hosszú" sziget majd négy hosszú "óceán", aztán sziget, víz, sziget, majd óceán és végül egy szigeten leszálltunk. A `Flying` osztályban készíts egy metódust, ami egy ilyen nullákból és egyesekből álló Stringet vár és visszaadja a leghosszabb óceánszakasz hosszát. 
