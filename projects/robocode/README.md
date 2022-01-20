@@ -14,7 +14,7 @@ nyertesek.
 
 A robot tankokat Java és .NET platformon lehet megvalósítani.
 
-![Robocode csata](images/robocode-battle.png =600x468)
+![Robocode csata](images/robocode-battle.png)
 
 ## Források
 
