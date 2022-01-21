@@ -255,3 +255,11 @@ A kiadott feladat megoldása. A rendezésekről bővebben. Buborékos rendezés 
 ## 2022.01.18.
 
 Csoportmunka feladat megoldásainak bemutatása.
+
+## 2022.01.19.
+
+Általános ismétlés a kollekciók és műveleteik témaköréből. Közösen megoldott gyakorlófeladat. Ismétlőkérdések.
+
+## 2022.01.20.
+
+Közös interaktív gyakorló kvíz a kollekciók témaköréből. A kiadott feladat megoldása. Rendezésről, rendezési algoritmusokról, rendezett kollekciókról. 
