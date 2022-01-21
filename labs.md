@@ -407,3 +407,8 @@ Fájl elérés: `consultations/src/main/resources/result.txt
 
 ### Day04
 Írj egy metódust, ami paraméterül vár egy angol szöveget és visszaad egy Map-et. A mapben a kulcsok a magánhangzók, azérték pedig az, amennyi van a szövegben. Ha egy magánhangzó nincs a szövegben akkor az ne legyen része a mapnek.
+
+### Day05
+Adott az alábbi fájl, amelyben egy táblázat található. Az első oszlopban az van, hogy ki utalt pénzt, a második oszlopban az van, hogy kinek utalta, a harmadik oszlopban pedig van az összeg, amennyit utalt. A feladat az, hogy olvasd be a fájlt, majd összesítsd és add vissza, hogy a tranzakciók végére kinek mennyi pénz maradt a számláján! A tranzakciókat végző emberek azonosítóval szerepelnek a táblázatban, de mindenki többször is szerepel benne. A kezdő összeg a számláján mindenkinél 0.
+
+A kiinduló fájl [itt](https://github.com/Training360/java-strukturavalto2-alap/blob/main/consultations/src/main/resources/transfers.csv) található.
