@@ -263,3 +263,7 @@ Csoportmunka feladat megoldásainak bemutatása.
 ## 2022.01.20.
 
 Közös interaktív gyakorló kvíz a kollekciók témaköréből. A kiadott feladat megoldása. Rendezésről, rendezési algoritmusokról, rendezett kollekciókról. 
+
+## 2022.01.21.
+
+Komplex összefoglaló feladat megoldása a kollekciók témaköréből.
