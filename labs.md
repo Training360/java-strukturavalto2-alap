@@ -417,7 +417,10 @@ A kiinduló fájl [itt](https://github.com/Training360/java-strukturavalto2-alap
 A megoldásokat a `java-sv2-daily-labs14` repositoryban, a `week14-lab-tasks` projektben valósítsd meg.
 
 ### Day01
-A slacken (java-backend) csatornán adott három osztály. Az OrderService osztályba valósítsd meg a következő feladatokat:
+Az alábbi linken adott három osztály:
+https://github.com/Training360/java-strukturavalto2-alap/tree/main/consultations/src/main/java/week14/day01
+
+Az OrderService osztályba valósítsd meg a következő feladatokat:
 * Határozd meg a rendelések darabszámát egy paraméterként kapott státusz alapján
 * Add vissza azokat a rendeléseket, amik két dátum között vannak.
 * Van-e olyan rendelés amiben kevesebb mint paraméternyi termék található.
