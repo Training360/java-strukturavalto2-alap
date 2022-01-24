@@ -422,4 +422,5 @@ A slacken (java-backend) csatornán adott három osztály. Az OrderService oszt�
 * Add vissza azokat a rendeléseket, amik két dátum között vannak.
 * Van-e olyan rendelés amiben kevesebb mint paraméternyi termék található.
 * Keresd meg azt a rendelést, amiben a legtöbb termék található.
+* (Nehezebb) Gyűjtsük ki azokat a rendeléseket, amiben van megadott kategóriájú termék.
 
