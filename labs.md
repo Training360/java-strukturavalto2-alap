@@ -374,7 +374,7 @@ Bármilyen eddig tanult eszközzel megvalósíthatod a feladatot!
 Készíts egy `StringStatistics` nevű osztályt és benne, egy metódust aminek bementi paramétere egy szöveg és visszatérési értéke egy adatszerkezet, amiből kiolvasható, hogy melyik karakterből hány darab szerepel benne!
 
 
-## WEEK12
+## WEEK13
 A megoldásokat a `java-sv2-daily-labs13` repositoryban, a `week13-lab-tasks` projektben valósítsd meg.
 
 ### Day01
@@ -412,3 +412,10 @@ Fájl elérés: `consultations/src/main/resources/result.txt
 Adott az alábbi fájl, amelyben egy táblázat található. Az első oszlopban az van, hogy ki utalt pénzt, a második oszlopban az van, hogy kinek utalta, a harmadik oszlopban pedig van az összeg, amennyit utalt. A feladat az, hogy olvasd be a fájlt, majd összesítsd és add vissza, hogy a tranzakciók végére kinek mennyi pénz maradt a számláján! A tranzakciókat végző emberek azonosítóval szerepelnek a táblázatban, de mindenki többször is szerepel benne. A kezdő összeg a számláján mindenkinél 0.
 
 A kiinduló fájl [itt](https://github.com/Training360/java-strukturavalto2-alap/blob/main/consultations/src/main/resources/transfers.csv) található.
+
+## WEEK14
+A megoldásokat a `java-sv2-daily-labs14` repositoryban, a `week14-lab-tasks` projektben valósítsd meg.
+
+### Day01
+A slacken (java-backend) csatornán adott három osztály. Az OrderService osztályba valósítsd meg a következő feladatokat:
+
