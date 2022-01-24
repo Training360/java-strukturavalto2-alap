@@ -1,9 +1,6 @@
 package week13.day01;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class Main {
 
@@ -16,20 +13,23 @@ public class Main {
 
 
     public static void main(String[] args) {
-        Integer[] numbers = {1, 6, 4, 3, 8, 9, 2};
-
+        Integer[] numbers = new Integer[50000];
+        for(int i=0;i<50000;i++){
+            numbers[i] = new Random().nextInt(1000000);
+        }
         Collections.sort(Arrays.asList(numbers));
+        for (int i = numbers.length; i > 0; i--) {
+            for (int j = 0; j < i-1; j++) {
+              if(numbers[j]>numbers[j+1]){
+                  int temp = numbers[j+1];
+                  numbers[j+1] = numbers[j];
+                  numbers[j] = temp;
+              }
+            }
+        }
 
-//        for (int i = numbers.length; i > 0; i--) {
-//            for (int j = 0; j < i-1; j++) {
-//              if(numbers[j]>numbers[j+1]){
-//                  int temp = numbers[j+1];
-//                  numbers[j+1] = numbers[j];
-//                  numbers[j] = temp;
-//              }
-//            }
-//        }
-//
+
+
         for(int i=0;i<numbers.length;i++){
             System.out.println(numbers[i]);
         }
