@@ -267,3 +267,7 @@ Közös interaktív gyakorló kvíz a kollekciók témaköréből. A kiadott fel
 ## 2022.01.21.
 
 Komplex összefoglaló feladat megoldása a kollekciók témaköréből.
+
+## 2022.01.24.
+
+Stream gyakorlófeladatok közös megoldása.
