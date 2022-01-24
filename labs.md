@@ -418,4 +418,5 @@ A megoldásokat a `java-sv2-daily-labs14` repositoryban, a `week14-lab-tasks` pr
 
 ### Day01
 A slacken (java-backend) csatornán adott három osztály. Az OrderService osztályba valósítsd meg a következő feladatokat:
+* Határozd meg a rendelések darabszámát egy paraméterként kapott státusz alapján
 
