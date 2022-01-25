@@ -428,7 +428,7 @@ Az OrderService osztályba valósítsd meg a következő feladatokat:
 * (Nehezebb) Gyűjtsük ki azokat a rendeléseket, amiben van megadott kategóriájú termék.
 
 ### Day02
-Hozzd létre a `Movie` osztályt. Attribútumai a címe, a hossza és a benne szereplő színészek nevének listája (`List<String>`). Oldd meg a következő feladatokat streamek használatával.
+Hozzd létre a `Movie` osztályt. Attribútumai a címe, a hossza és a benne szereplő színészek nevének listája (`List<String>`).
 Hozzd létre a `MovieService` osztályt, benne egy `Movie` listával és egy `addMovie(Movie movie)` metódussal és oldd meg a következő feladatokat streamek használatával. 
 
 * Add vissza azon filmek listáját amiben szerepel egy paraméterül átadott színész.
