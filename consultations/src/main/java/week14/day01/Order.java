@@ -16,7 +16,6 @@ public class Order {
         this.orderDate = orderDate;
     }
 
-
     public void addProduct(Product product) {
         products.add(product);
     }
@@ -32,4 +31,6 @@ public class Order {
     public List<Product> getProducts() {
         return products;
     }
+
+
 }
