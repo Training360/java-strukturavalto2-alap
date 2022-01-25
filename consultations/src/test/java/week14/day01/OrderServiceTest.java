@@ -83,8 +83,4 @@ class OrderServiceTest {
         assertEquals(4, result.getProducts().size());
     }
 
-    @Test
-    void everyOrderUpper(){
-        System.out.println(orderService.upperEveryOrder());
-    }
 }
