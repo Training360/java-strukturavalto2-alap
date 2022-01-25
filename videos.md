@@ -271,3 +271,7 @@ Komplex összefoglaló feladat megoldása a kollekciók témaköréből.
 ## 2022.01.24.
 
 Stream gyakorlófeladatok közös megoldása.
+
+## 2022.01.25.
+
+A kiadott feladat megoldása. A `flatMap()` metódusról. A metódus referenciáról bővebben.
