@@ -275,3 +275,7 @@ Stream gyakorlófeladatok közös megoldása.
 ## 2022.01.25.
 
 A kiadott feladat megoldása. A `flatMap()` metódusról. A metódus referenciáról bővebben.
+
+## 2022.01.26.
+
+Átfogó ismétlés a lambda kifejezések és a streamek témaköréből. Ismétlőkérdések.
