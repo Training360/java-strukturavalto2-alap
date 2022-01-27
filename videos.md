@@ -279,3 +279,7 @@ A kiadott feladat megoldása. A `flatMap()` metódusról. A metódus referenciá
 ## 2022.01.26.
 
 Átfogó ismétlés a lambda kifejezések és a streamek témaköréből. Ismétlőkérdések.
+
+## 2022.01.27.
+
+A kiadott feladat megoldása. Két hallgatói megoldás összehasonlítása. Filozófiába átmenő vita a rendezésről. :) A konstruktor referenciáról. Technikai információk a vizsgáról, az SQL-hétről, a tanfolyam végéről, a haladó tanfolyamról.
