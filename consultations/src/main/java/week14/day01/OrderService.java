@@ -33,13 +33,6 @@ public class OrderService {
                 .toList();
     }
 
-    public List<String> methodReferenceTest(){
-        return orders.stream()
-                .map(Order::getStatus)
-                .map(String::toUpperCase)
-                .toList();
-    }
-
     public String orderToString(Order o){
         return o.getStatus()+" "+o.getOrderDate().toString();
     }
