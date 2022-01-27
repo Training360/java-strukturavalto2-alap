@@ -16,6 +16,10 @@ public class Order {
         this.orderDate = orderDate;
     }
 
+    public  String sayHyToOrder(Order o){
+        return "Hello "+o;
+    }
+
     public void addProduct(Product product) {
         products.add(product);
     }
@@ -32,5 +36,12 @@ public class Order {
         return products;
     }
 
-
+    @Override
+    public String toString() {
+        return "Order{" +
+                "status='" + status + '\'' +
+                ", orderDate=" + orderDate +
+                ", products=" + products +
+                '}';
+    }
 }

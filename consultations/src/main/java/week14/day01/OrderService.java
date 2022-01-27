@@ -25,6 +25,25 @@ public class OrderService {
                 .count();
     }
 
+    public List<Product> findProductsOverPrice(int amount){
+        return orders.stream()
+                .flatMap(o->o.getProducts().stream())
+                .filter(p->p.getPrice()>amount)
+                .distinct()
+                .toList();
+    }
+
+    public List<String> methodReferenceTest(){
+        return orders.stream()
+                .map(Order::getStatus)
+                .map(String::toUpperCase)
+                .toList();
+    }
+
+    public String orderToString(Order o){
+        return o.getStatus()+" "+o.getOrderDate().toString();
+    }
+
     public List<Order> getOrdersBetweenDates(LocalDate start, LocalDate end) {
         return orders.stream()
                 .filter(o -> o.getOrderDate().isAfter(start) )
@@ -38,6 +57,7 @@ public class OrderService {
                  .anyMatch(i->i<number);
     }
 
+
     public Order getOrderWithMaxNumberOfProducts(){
         return orders.stream()
                 .sorted(Collections.reverseOrder(Comparator.comparing(o->o.getProducts().size())))
@@ -50,6 +70,8 @@ public class OrderService {
                         stream().anyMatch(p->p.getCategory().equals(category)))
                 .collect(Collectors.toList());
     }
+
+
 
 
 
