@@ -1,0 +1,1 @@
+Ide kerülnek majd a 3. részvizsga gyakorlati feladatai.
