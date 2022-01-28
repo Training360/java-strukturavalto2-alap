@@ -283,3 +283,7 @@ A kiadott feladat megoldása. A `flatMap()` metódusról. A metódus referenciá
 ## 2022.01.27.
 
 A kiadott feladat megoldása. Két hallgatói megoldás összehasonlítása. Filozófiába átmenő vita a rendezésről. :) A konstruktor referenciáról. Technikai információk a vizsgáról, az SQL-hétről, a tanfolyam végéről, a haladó tanfolyamról.
+
+## 2022.01.28.
+
+A 2. részvizsga City feladata alapján a streamek közös gyakorlása. Majd a kiadott feladat megoldása. Gyakorló házi feladat kiadása az óra végén.
