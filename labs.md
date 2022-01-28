@@ -441,7 +441,7 @@ Készítsünk egy `PairFinder` nevű osztályt, melynek van egy `int findPairs(i
 ### Day05
 Ebben a feladataban utcákat és a hozzájuk tartozó utcaképet fogjuk kezelni. 
 Az utcakép a következőképpen néz ki `0011101101`. Ez azt mutatja, hogy milyen sorrendben adták el a házakat. A 0 páros oldalon eladott házat jelöl az 1 pedid páratlan oldalon eladtott házat. Ennek megfelelően a házszámok 2,4,1,3,5,6,7,9,8,11.
-Adott a `streets.txt` fájl. Olvasd be a fájlt úgy, hogy egy Map<String, List<Integer>>-ben tárolod el az adatokat, már a megfelelő házszámmal.
+Adott a `streets.txt` fájl. Olvasd be a fájlt úgy, hogy egy Map< String, List<Integer> >-ben tárolod el az adatokat, már a megfelelő házszámmal.
 A fájl szerkezete:
 ```
 Kossuth 0
