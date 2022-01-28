@@ -44,6 +44,14 @@ public class OrderService {
                 .collect(Collectors.toList());
     }
 
+
+    public List<Order> sortOrdersByStatusAndOrderDate(){
+        return orders.stream()
+                .sorted(Comparator.comparing(Order::getOrderDate))
+                .sorted(Comparator.comparing(Order::getStatus))
+                .toList();
+    }
+
     public boolean isOrderWithLessProductThan(int number){
         return  orders.stream()
                  .mapToInt(o->o.getProducts().size())

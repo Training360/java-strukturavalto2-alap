@@ -22,12 +22,12 @@ class OrderServiceTest {
         Product p4 = new Product("Lord of The Rings", "Book", 20);
         Product p5 = new Product("Harry Potter Collection", "Book", 120);
 
-        Order o1 = new Order("pending", LocalDate.of(2021, 06, 07));
+        Order o1 = new Order("pending", LocalDate.of(2021, 06, 01));
         o1.addProduct(p1);
         o1.addProduct(p2);
         o1.addProduct(p5);
 
-        Order o2 = new Order("on delivery", LocalDate.of(2021, 06, 01));
+        Order o2 = new Order("on delivery", LocalDate.of(2021, 06, 07));
         o2.addProduct(p3);
         o2.addProduct(p1);
         o2.addProduct(p2);
@@ -43,7 +43,7 @@ class OrderServiceTest {
         o4.addProduct(p2);
         o4.addProduct(p5);
 
-        Order o5 = new Order("pending", LocalDate.of(2021, 06, 07));
+        Order o5 = new Order("pending", LocalDate.of(2021, 06, 01));
         o5.addProduct(p1);
         o5.addProduct(p2);
 
@@ -88,6 +88,11 @@ class OrderServiceTest {
         List<Product> result = orderService.findProductsOverPrice(400);
 
         result.stream().forEach(p->System.out.println(p.getPrice()));
+     }
+
+     @Test
+    void thenComparingTest(){
+         orderService.sortOrdersByStatusAndOrderDate().forEach(o-> System.out.println(o.getStatus()+" "+o.getOrderDate()));
      }
 
 }
