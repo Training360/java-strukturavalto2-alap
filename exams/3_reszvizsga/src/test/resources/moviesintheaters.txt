@@ -1,0 +1,13 @@
+WestEnd-Star Wars;17:20
+WestEnd-Star Wars;18:30
+WestEnd-Star Wars;19:45
+Duna Plaza-Star Wars;12:45
+Duna Plaza-Star Wars;13:45
+WestEnd-Lord Of The Rings;16:50
+WestEnd-Lord Of The Rings;20:45
+Duna Plaza-Lord Of The Rings;16:20
+Duna Plaza-Lord Of The Rings;18:20
+Puskin-Lord Of The Rings;17:00
+WestEnd-Paw Petrol;11:20
+WestEnd-Paw Petrol;14:20
+Puskin-Paw Petrol;13:20
