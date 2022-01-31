@@ -1,0 +1,11 @@
+Kossuth 0
+Kossuth 0
+Petofi 1
+Petofi 0
+Kossuth 1
+Kossuth 1
+Kossuth 1
+Petofi 0
+Petofi 1
+Kossuth 1
+Petofi 0
