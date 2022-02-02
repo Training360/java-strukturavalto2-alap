@@ -1,0 +1,1 @@
+Itt lesz a 3. részvizsga pótpótvizsga gyakorlati feladatsora.
