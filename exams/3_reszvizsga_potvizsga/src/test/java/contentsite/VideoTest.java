@@ -2,13 +2,9 @@ package contentsite;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.List;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class VideoTest {
-
-
 
     @Test
     void createVideo(){
@@ -23,19 +19,19 @@ class VideoTest {
 
     @Test
     void clickTest(){
-        Content podcast = new Video("Java Language", 16);
-        podcast.click(new User("username","1234"));
-        assertEquals(1, podcast.clickedBy().size());
-        assertEquals("username",podcast.clickedBy().get(0).getUserName());
+        Content video = new Video("Java Language", 10);
+        video.click(new User("username","1234"));
+        assertEquals(1, video.clickedBy().size());
+        assertEquals("username",video.clickedBy().get(0).getUserName());
     }
 
     @Test
     void getClickedByTest(){
-        Content podcast = new Video("Java Language", 16);
+        Content video = new Video("Java Language", 10);
 
-        podcast.clickedBy().add(new User("username","1234"));
+        video.clickedBy().add(new User("username","1234"));
 
-        assertEquals(0, podcast.clickedBy().size());
+        assertEquals(0, video.clickedBy().size());
     }
 
 }
