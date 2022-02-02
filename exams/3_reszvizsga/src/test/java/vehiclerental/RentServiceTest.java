@@ -32,7 +32,7 @@ public class RentServiceTest {
         rentService.addRentable(car);
         rentService.addRentable(bike);
         rentService.addRentable(new Car("ABC-123", 45));
-        rentService.addRentable(new Car("ABC-123", 35));
+        rentService.addRentable(new Car("ABC-122", 35));
         rentService.addRentable(new Bike("AB123"));
         rentService.addRentable(new Bike("BB123"));
     }
