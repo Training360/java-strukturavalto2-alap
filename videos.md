@@ -287,3 +287,7 @@ A kiadott feladat megoldása. Két hallgatói megoldás összehasonlítása. Fil
 ## 2022.01.28.
 
 A 2. részvizsga City feladata alapján a streamek közös gyakorlása. Majd a kiadott feladat megoldása. Gyakorló házi feladat kiadása az óra végén.
+
+## 2022.02.01.
+
+A tegnap lezajlott 3. részvizsga gyakorlati feladatainak közös megoldása.
