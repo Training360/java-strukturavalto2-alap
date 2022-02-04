@@ -1,0 +1,16 @@
+Név;lécméret bakancsméret
+John Doe;120 37
+Jack Smith;140 39
+Peter Taylor;170 45
+Ken Bold;110 32
+Melissa Meyer;130 37
+Jeff Swensson;160 45
+Mike Wiley;150 0
+Ruth Norley;80 27
+Rose Guss;0 39
+Karl Huge;160 0
+Adam O'Reilly;0 45
+Boy Small;70 25
+Kevin Gray;150 42
+Phil Pie;160 45
+Martha Jacob;130 37
