@@ -66,7 +66,7 @@ class ChristmasTreeFairTest {
 
     @Test
     void testGetAveragePrice() {
-        assertEquals(6857.143, fair.getAveragePrice(), 0.0005);
+        assertEquals(11088.571, fair.getAveragePrice(), 0.0005);
     }
 
     @Test
