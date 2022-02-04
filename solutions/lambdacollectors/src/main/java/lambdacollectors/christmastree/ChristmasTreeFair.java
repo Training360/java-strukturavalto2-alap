@@ -32,6 +32,6 @@ public class ChristmasTreeFair {
 
     public double getAveragePrice() {
         return christmasTrees.stream()
-                .collect(Collectors.averagingInt(tree -> tree.getType().getPricePerMeter()));
+                .collect(Collectors.averagingInt(tree -> tree.getPrice()));
     }
 }
