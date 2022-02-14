@@ -292,6 +292,18 @@ A 2. részvizsga City feladata alapján a streamek közös gyakorlása. Majd a k
 
 A tegnap lezajlott 3. részvizsga gyakorlati feladatainak közös megoldása.
 
+## 2022.02.07.
+
+Az adatról, adatok kezeléséről, adatbázisokról általánosan. Az adatbázis-normálformák.
+
+## 2022.02.08.
+
+Az adatbázisok felépítése általánosan. MariaDb gyakran használt adattípusok. Az SQL-nyelvről általánosan.
+
+## 2022.02.09.
+
+A gyakran használt SQL-utasítások elméleti áttekintése.
+
 ## 2022.02.14.
 
 Egyszerű lekérdezés az adatbázisból és új adat beszúrása JDBC használatával.
