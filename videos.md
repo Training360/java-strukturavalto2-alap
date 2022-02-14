@@ -291,3 +291,7 @@ A 2. részvizsga City feladata alapján a streamek közös gyakorlása. Majd a k
 ## 2022.02.01.
 
 A tegnap lezajlott 3. részvizsga gyakorlati feladatainak közös megoldása.
+
+## 2022.02.14.
+
+Egyszerű lekérdezés az adatbázisból és új adat beszúrása JDBC használatával.
