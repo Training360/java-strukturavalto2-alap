@@ -315,3 +315,7 @@ Tranzakciókezelés SQL-ben. Egyebek.
 ## 2022.02.14.
 
 Egyszerű lekérdezés az adatbázisból és új adat beszúrása JDBC használatával.
+
+## 2022.02.15.
+
+A JDBC-vel való adatbáziskezelés során használt interfészekről részletesebben. A Flyway használatáról bővebben. Hogyan lehet dátumokat és időpontokat menteni adatbázisba, valamint hogyan lehet őket onnan kiolvasni?
