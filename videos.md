@@ -304,6 +304,14 @@ Az adatbázisok felépítése általánosan. MariaDb gyakran használt adattípu
 
 A gyakran használt SQL-utasítások elméleti áttekintése.
 
+## 2022.02.10.
+
+További SQL-utasítások, gyakorlatban is bemutatva.
+
+## 2022.02.11.
+
+Tranzakciókezelés SQL-ben. Egyebek.
+
 ## 2022.02.14.
 
 Egyszerű lekérdezés az adatbázisból és új adat beszúrása JDBC használatával.
