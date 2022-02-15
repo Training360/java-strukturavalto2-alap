@@ -463,6 +463,10 @@ A megoldásokat a `java-sv2-daily-labs17` repositoryban, a `week17-lab-tasks` pr
 
 ### Day01 
 Hozz létre egy adatbázíst, benne egy `actors` nevű táblával, amiben egy `id` és egy `actor_name` oszlop szerepel. 
-Készíts egy programot amelyben legalább egy beszúrást és egy lekérdezést megvalósítasz.  
+Készíts egy programot amelyben legalább egy beszúrást és egy lekérdezést megvalósítasz.
+
+### Day02
+A feladat pontosan elhangzik a konzultáció felvételen 59:50-nél. 
+Hozz létre egy `movies` táblát melyben az oszlopok `id`, `title` és `release_date`, mindezt `Flyway` segítségével. Készíts egy metódust, ami paraméterül kap egy címet és egy dátumot és beszúrja a táblába. Készíts egy metódust, ami egy filmek listában visszaadja az összes filmet.   
 
 

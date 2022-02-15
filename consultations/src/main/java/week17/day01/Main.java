@@ -1,10 +1,12 @@
 package week17.day01;
 
+import org.flywaydb.core.Flyway;
 import org.mariadb.jdbc.MariaDbDataSource;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.time.LocalDate;
 
 public class Main {
 
@@ -19,9 +21,16 @@ public class Main {
             throw new IllegalStateException("Cannot reach DataBase!",sqle);
         }
 
-        ActorsRepository actorsRepository = new ActorsRepository(dataSource);
-       // actorsRepository.saveActor("Jack Doe");
+        Flyway flyway = Flyway.configure().dataSource(dataSource).load();
+        flyway.migrate();
 
-        System.out.println(actorsRepository.findActorsWithPrefix("o"));
+        ActorsRepository actorsRepository = new ActorsRepository(dataSource);
+
+        MoviesRepository moviesRepository = new MoviesRepository(dataSource);
+        moviesRepository.saveMovie("Titanic",LocalDate.of(1997,12,11));
+        moviesRepository.saveMovie("Lord Of The Rings",LocalDate.of(2000,12,23));
+
+        System.out.println(moviesRepository.findAllMovies());
+
     }
 }
