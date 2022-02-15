@@ -458,4 +458,11 @@ Petofi 0
 ```
 Az elvárt eredmény: Kossuth-{2,4,1,3,5,7} Petofi-{1,2,4,3,6}
 
+## WEEK17
+A megoldásokat a `java-sv2-daily-labs17` repositoryban, a `week17-lab-tasks` projektben valósítsd meg.
+
+### Day01 
+Hozz létre egy adatbázíst, benne egy `actors` nevű táblával, amiben egy `id` és egy `actor_name` oszlop szerepel. 
+Készíts egy programot amelyben legalább egy beszúrást és egy lekérdezést megvalósítasz.  
+
 
