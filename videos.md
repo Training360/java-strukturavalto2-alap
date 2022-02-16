@@ -319,3 +319,14 @@ Egyszerű lekérdezés az adatbázisból és új adat beszúrása JDBC használa
 ## 2022.02.15.
 
 A JDBC-vel való adatbáziskezelés során használt interfészekről részletesebben. A Flyway használatáról bővebben. Hogyan lehet dátumokat és időpontokat menteni adatbázisba, valamint hogyan lehet őket onnan kiolvasni?
+
+## 2022.02.16.
+
+Konzultáció: Általános összefoglalás az SQL-hét tananyagából. ORM, alap SQL-parancsok, párhuzamok a Java parancsokkal, tranzakciókezelés SQL-nyelvvel.
+
+Hogyan tovább? - István előadása: Itt a tanfolyamon a Java programozási
+  nyelv alapjait és az osztálykönyvtárakat tanuljátok meg alaposan, és egy-két eszközt és library-t
+  érintőlegesen, pl. IDEA, Maven, JUnit. Azonban rengeteg további eszköz, technológia létezik ami
+  kell egy Java fejlesztő eszköztárába, ezekről szeretne egy kicsit beszélni.
+  Elrettentésként lásd a csatolt ábrát.
+  https://www.jtechlog.hu/artifacts/posts/images/jtechlog-java-roadmap-hu.png
