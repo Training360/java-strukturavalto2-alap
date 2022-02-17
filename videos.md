@@ -333,4 +333,4 @@ Hogyan tovább? - István előadása: Itt a tanfolyamon a Java programozási
 
 ## 2022.02.17.
 
-A kiadott feladat megoldásának közös megbeszélése.
+A kiadott feladat (egy komplex actors-movies alkalmazás) megoldásának közös megbeszélése.
