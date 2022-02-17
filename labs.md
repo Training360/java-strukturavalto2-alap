@@ -467,6 +467,12 @@ Készíts egy programot amelyben legalább egy beszúrást és egy lekérdezést
 
 ### Day02
 A feladat pontosan elhangzik a konzultáció felvételen 59:50-nél. 
-Hozz létre egy `movies` táblát melyben az oszlopok `id`, `title` és `release_date`, mindezt `Flyway` segítségével. Készíts egy metódust, ami paraméterül kap egy címet és egy dátumot és beszúrja a táblába. Készíts egy metódust, ami egy filmek listában visszaadja az összes filmet.   
+Hozz létre egy `movies` táblát melyben az oszlopok `id`, `title` és `release_date`, mindezt `Flyway` segítségével. Készíts egy metódust, ami paraméterül kap egy címet és egy dátumot és beszúrja a táblába. Készíts egy metódust, ami egy filmek listában visszaadja az összes filmet. 
+
+### Day04
+Az eddigi actors-movies projektet egészítsd ki a következőkkel:
+* Készíts egy `Actor` osztályt id és név adattagokkal, konstruktorral, getterekkel
+* Amikor új színészt szúrunk be adjuk vissza az adatbázis által generált azonosítót
+* Készítsünk egy `findActorByName(String name)` metódust, ami visszaadja a névnek megfelelő Actort `Optional` ként!   
 
 
