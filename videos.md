@@ -330,3 +330,7 @@ Hogyan tovább? - István előadása: Itt a tanfolyamon a Java programozási
   kell egy Java fejlesztő eszköztárába, ezekről szeretne egy kicsit beszélni.
   Elrettentésként lásd a csatolt ábrát.
   https://www.jtechlog.hu/artifacts/posts/images/jtechlog-java-roadmap-hu.png
+
+## 2022.02.17.
+
+A kiadott feladat megoldásának közös megbeszélése.
