@@ -334,3 +334,7 @@ Hogyan tovább? - István előadása: Itt a tanfolyamon a Java programozási
 ## 2022.02.17.
 
 A kiadott feladat (egy komplex actors-movies alkalmazás különböző rétegekkel, adatbázissal) megoldásának közös megbeszélése.
+
+## 2022.02.18.
+
+Tranzakciókzelés JDBC-ben.
