@@ -14,12 +14,20 @@ public class MoviesRepository {
         this.dataSource = dataSource;
     }
 
-    public void saveMovie(String title, LocalDate releaseDate){
+    public Long saveMovie(String title, LocalDate releaseDate){
         try(Connection conn = dataSource.getConnection();
-            PreparedStatement statement = conn.prepareStatement("insert into movies(title,release_date) values(?,?) ")){
+            PreparedStatement statement = conn.prepareStatement("insert into movies(title,release_date) values(?,?)", Statement.RETURN_GENERATED_KEYS)){
             statement.setString(1,title);
             statement.setDate(2, Date.valueOf(releaseDate));
             statement.executeUpdate();
+
+            try(ResultSet rs = statement.getGeneratedKeys()){
+                if(rs.next()){
+                    return rs.getLong(1);
+                }
+                throw new IllegalStateException("Insert failed to movies!");
+            }
+
         }catch (SQLException sqle){
             throw new IllegalStateException("Cannot connect!",sqle);
         }
@@ -32,7 +40,6 @@ public class MoviesRepository {
             ResultSet rs = statement.executeQuery()){
 
             return processResultSet(rs);
-
 
         }catch(SQLException sqle){
             throw new IllegalStateException("Cannot query!", sqle);

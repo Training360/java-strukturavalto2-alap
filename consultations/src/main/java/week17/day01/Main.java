@@ -29,12 +29,14 @@ public class Main {
         ActorsRepository actorsRepository = new ActorsRepository(dataSource);
 
         MoviesRepository moviesRepository = new MoviesRepository(dataSource);
-        moviesRepository.saveMovie("Titanic", LocalDate.of(1997, 12, 11));
-        moviesRepository.saveMovie("Lord Of The Rings", LocalDate.of(2000, 12, 23));
 
-        System.out.println(moviesRepository.findAllMovies());
+        ActorsMoviesRepository actorsMoviesRepository = new ActorsMoviesRepository(dataSource);
 
-        actorsRepository.saveActor("John DOe");
+        ActorsMoviesService service = new ActorsMoviesService(actorsRepository,moviesRepository,actorsMoviesRepository);
+
+        service.insertMovieWithActors("Titanic",LocalDate.of(1997,11,13),List.of("Leonardo DiCaprio","Kate Winslet"));
+        service.insertMovieWithActors("Great Gatsby",LocalDate.of(2012,12,11),List.of("Leonardo DiCaprio","Toby"));
+
 
 
 
