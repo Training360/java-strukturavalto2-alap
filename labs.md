@@ -476,3 +476,11 @@ Az eddigi actors-movies projektet egészítsd ki a következőkkel:
 * Készítsünk egy `findActorByName(String name)` metódust, ami visszaadja a névnek megfelelő Actort `Optional` ként!   
 
 
+### Day05
+A feladat elhangzik 0:43:35-nél a konzultáción.
+Egészítsük ki a projektünket egy `ratings` táblával, aminek oszlopai `id`, `movie_id` és `rating`.
+Lehessen egy filmre értékelést adni, de olyan formában, hogy az értékeléseket listában kapjuk és mindegyiknek 1-5 között kell lennie. Ha valamelyik nem ok, akkor egyiket se szúrjuk be.<br>
+Hétvégére kiadott feladat: <br>
+Egészítsd ki a `movies` táblát egy `avg_rating` oszloppal, ami mindig az átlag értékelést mutatja. Amikor felveszünk egy filmet akkor ez legyen 0 vagy NULL. De akárhányszor értékelés érkezik számoljuk újra!
+
+
