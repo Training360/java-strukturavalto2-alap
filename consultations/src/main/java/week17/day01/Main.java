@@ -27,16 +27,19 @@ public class Main {
         flyway.migrate();
 
         ActorsRepository actorsRepository = new ActorsRepository(dataSource);
-
         MoviesRepository moviesRepository = new MoviesRepository(dataSource);
-
         ActorsMoviesRepository actorsMoviesRepository = new ActorsMoviesRepository(dataSource);
+        RatingsRepository ratingsRepository = new RatingsRepository(dataSource);
 
-        ActorsMoviesService service = new ActorsMoviesService(actorsRepository,moviesRepository,actorsMoviesRepository);
+        ActorsMoviesService actorsMoviesService = new ActorsMoviesService(actorsRepository,moviesRepository,actorsMoviesRepository);
+        MoviesRatingService moviesRatingService = new MoviesRatingService(moviesRepository,ratingsRepository);
 
-        service.insertMovieWithActors("Titanic",LocalDate.of(1997,11,13),List.of("Leonardo DiCaprio","Kate Winslet"));
-        service.insertMovieWithActors("Great Gatsby",LocalDate.of(2012,12,11),List.of("Leonardo DiCaprio","Toby"));
 
+//        actorsMoviesService.insertMovieWithActors("Titanic",LocalDate.of(1997,11,13),List.of("Leonardo DiCaprio","Kate Winslet"));
+//        actorsMoviesService.insertMovieWithActors("Great Gatsby",LocalDate.of(2012,12,11),List.of("Leonardo DiCaprio","Toby"));
+
+      //  moviesRatingService.addRatings("Titanic",5,3,2);
+        moviesRatingService.addRatings("Great Gatsby",1,3,2,5);
 
 
 
