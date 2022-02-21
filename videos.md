@@ -338,3 +338,7 @@ A kiadott feladat (egy komplex actors-movies alkalmazás különböző rétegekk
 ## 2022.02.18.
 
 Tranzakciókzelés JDBC-ben.
+
+## 2022.02.21.
+
+Technikai információk a közelgő vizsgákról. A hétvégére kiadott házi feladat közös megoldása.
