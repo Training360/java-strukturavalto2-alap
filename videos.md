@@ -346,3 +346,7 @@ Technikai információk a közelgő vizsgákról. A hétvégére kiadott házi f
 ## 2022.02.22.
 
 Egy könyveket kezelő alkalmazás megvalósítása olyan módon, hogy az adatbázist kezelő metódusok `JdbcTemplate`-et használnak.
+
+## 2022.02.23.
+
+Általános ismétlés az adatbáziskezelés, a JDBC, a Flyway és  a JdbcTemplate témakörökből.
