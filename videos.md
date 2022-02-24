@@ -350,3 +350,7 @@ Egy könyveket kezelő alkalmazás megvalósítása olyan módon, hogy az adatb�
 ## 2022.02.23.
 
 Általános ismétlés az adatbáziskezelés, a JDBC, a Flyway és  a JdbcTemplate témakörökből.
+
+## 2022.02.24.
+
+Technikai kérdések és válaszok a záróvizsgáról,  a képesítővizsgáról és a haladó tanfolyamról. Rövid stream-lambda, Comparator ismétlés, hallgatói kérdések alapján.
