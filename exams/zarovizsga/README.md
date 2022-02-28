@@ -39,7 +39,7 @@ Készítsd el az `InternationalPackage` nevű osztályt, mely implementálja a `
 és a távolság, amit meg kell tennie (kilométer). A szállítás alapára itt 1200, ami törékeny áru esetén duplázódik,
 illetve a szállítási díjra rájön egy 10 forintos kilométerdíj.<br>
 
-Készítsd el a `ShippingService` nevű osztályt, melyben egy lista található szállítható csomagokkal. Legyen egy`void addPackage(Transportable package)` metódus,
+Készítsd el a `ShippingService` nevű osztályt, melyben egy lista található szállítható csomagokkal. Legyen egy`void addPackage(Transportable transportable)` metódus,
 amivel csomagot lehet hozzáadni a listához.
 
 ## Szállítmányozó cég (Kollekciók, 20 pont)
