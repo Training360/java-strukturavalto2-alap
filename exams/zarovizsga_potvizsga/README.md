@@ -1,0 +1,1 @@
+Ide kerülnek majd a záróvizsga pótvizsga gyakorlati feladatai.
