@@ -1,1 +1,0 @@
-Ide fognak kerülni a képesítővizsga gyakorlati feladatai.
